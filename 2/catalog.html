@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
     <base href="https://htmlacademy-htmlcss.github.io/2518753-sedona-1/2/">
 </head>
+
   <body>
     <header class="mane-header">
       <nav class="navigation">
@@ -25,18 +27,18 @@
         <ul class="menu">
           <li class="menu-item">
             <a class="menu-link" href="#">
-             <span class="visually-hidden">Гостиницы</span>
+              <span class="visually-hidden">Гостиницы</span>
             </a>
           </li>
           <li class="menu-item">
             <a class="menu-link" href="#">
               <span class="visually-hidden">Избранное</span>
-             </a>
+            </a>
           </li>
           <li class="menu-item">
-            <a class="menu-batton" href="#">
+            <a class="menu-button" href="#">
               <span class="visually-hidden">Поиск гостиницы</span>
-             </a>
+            </a>
           </li>
         </ul>
       </nav>
@@ -44,19 +46,7 @@
     <main class="main-inner">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <ul class="breadcrumbs-item">
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">
-             <img src="#" alt="Главная">
-            </a>
-          </li>
-          <li class="breadcrumbs-item">
-          <img src="#" alt="стрелка">
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Гостиницы</a>
-          </li>
-        </ul>
+        <a class="breadcrumbs-link">Гостиницы</a>
       </header>
       <section class="catalog-products">
         <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
@@ -78,7 +68,7 @@
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="Wi-Fi" >
+                  <input class="control-input" type="checkbox" name="Wi-Fi">
                   Wi-Fi
                 </label>
               </li>
@@ -108,9 +98,8 @@
             </ul>
           </fieldset>
           <button class="button" type="submit">Применить</button>
-          <button class="button" type="submit">Сбросить</button>
+          <button class="button" type="reset">Сбросить</button>
         </form>
-        <!--кол-во страниц , как правильно реалоизовать-->
         <p class="page-search">Страниц найдено:38</p>
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвые</option>
@@ -135,13 +124,10 @@
             <span class="product-card-price">От 4000 Р</span>
             <a class="product-card-button" href="#">Подробнее</a>
             <a class="product-card-button-favorites" href="#">В избранном</a>
-            <!--подсмотрел решение с рейтингом-->
             <div class="star-rating">
-              <div class="stars">
-                  <span class="star"></span>*<span class="star">*</span><span class="star">*</span><span class="star">*</span><span class="star"></span>
-              </div>
+              <div class="stars">*****</div>
               <div class="rating">Рейтинг: 8,5</div>
-          </div>
+            </div>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
@@ -152,11 +138,9 @@
             <a class="product-card-button" href="#">Подробнее</a>
             <a class="product-card-button-favorites" href="#">В избранном</a>
             <div class="star-rating">
-              <div class="stars">
-                  <span class="star">*</span><span class="star">*</span><span class="star">*</span><span class="star">*</span><span class="star"></span>
-              </div>
+              <div class="stars">****</div>
               <div class="rating">Рейтинг: 9,2</div>
-          </div>
+            </div>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
@@ -167,11 +151,9 @@
             <a class="product-card-button" href="#">Подробнее</a>
             <a class="product-card-button-favorites" href="#">В избранном</a>
             <div class="star-rating">
-              <div class="stars">
-                  <span class="star">*</span><span class="star">*</span><span class="star">*</span><span class="star"></span><span class="star"></span>
-              </div>
+              <div class="stars">*</div>
               <div class="rating">Рейтинг: 6,9</div>
-          </div>
+            </div>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
@@ -182,14 +164,11 @@
             <a class="product-card-button" href="#">Подробнее</a>
             <a class="product-card-button-favorites" href="#">В избранном</a>
             <div class="star-rating">
-              <div class="stars">
-                  <span class="star"></span>*<span class="star"></span>*<span class="star"></span><span class="star"></span><span class="star"></span>
-              </div>
+              <div class="stars">*</div>
               <div class="rating">Рейтинг: 5,0</div>
-          </div>
+            </div>
           </li>
         </ul>
-        <!--как правильно сделать кнопки страниц, многоточие стоит в образце-->
         <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link" href="#">1</a>
@@ -202,25 +181,24 @@
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
-          </li><li class="pagination-item">
-            <a class="pagination-link" href="#">5</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">6</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">7</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">8</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">9</a>
+            <a class="pagination-link" href="#">...</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>
         </ul>
+      </section>
+      <section class="subscription">
+        <h2>Подпишитесь на рассылку</h2>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="subscription-email">Email</label>
+          <input class="field" placeholder="email@example.ru" type="email" name="subscription-email"
+            id="subscription-email" required>
+          <button class="button subscription-button" type="submit">Подписаться</button>
+        </form>
       </section>
     </main>
     <footer class="main-footer">
@@ -232,12 +210,12 @@
         </li>
         <li class="social-item">
           <a href="https://t.me/htmlacademy">
-          <img src="#" alt="Telegram" width="24" height="14">
+            <img src="#" alt="Telegram" width="24" height="14">
           </a>
         </li>
         <li class="social-item">
           <a href="https://www.youtube.com/user/htmlacademyru">
-          <img src="#" alt="Youtube" width="24" height="14">
+            <img src="#" alt="Youtube" width="24" height="14">
           </a>
         </li>
       </ul>
@@ -245,6 +223,7 @@
       <a class="logo-academy" href="https://htmlacademy.ru/">
         <img src="#" width="138" height="64" alt=" Логотип .html academy">
       </a>
-      </footer>
+    </footer>
   </body>
+
 </html>

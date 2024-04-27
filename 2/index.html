@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <base href="https://htmlacademy-htmlcss.github.io/2518753-sedona-1/2/">
 </head>
+
   <body>
     <header class="mane-header">
-      <!--как добавить кнопку "хочу сюда" -->
       <nav class="navigation">
         <a class="logo" href="index.html">
           <img src="#" width="138" height="64" alt=" логотип города Sedona">
@@ -25,19 +26,18 @@
         </ul>
         <ul class="menu">
           <li class="menu-item">
+            <!--может сделать картинку с сылкой (для "гостиницы" и "избранное"?),применил  ниже-->
             <a class="menu-link" href="#">
-             <span class="visually-hidden">Гостиницы</span>
+              <img class="visually-hidden" src="icons/search.svg" alt="поиск гостиницы">
             </a>
           </li>
           <li class="menu-item">
             <a class="menu-link" href="#">
-              <span class="visually-hidden">Избранное</span>
-             </a>
+              <img class="visually-hidden" src="icons/heart.svg" alt="избранное">
+            </a>
           </li>
           <li class="menu-item">
-            <a class="menu-batton" href="#">
-              <span class="visually-hidden">Поиск гостиницы</span>
-             </a>
+            <a class="menu-batton" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -47,7 +47,7 @@
         <h1>
           <span class="visually-hidden">Город Седона</span>
         </h1>
-      <h2>Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
+        <h2>Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
         <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
       <section class="advantages">
@@ -93,44 +93,44 @@
         </ul>
       </section>
       <section class="search-hotel">
-      <h2>Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-      <!--кнопка поиска, как сделать?-->
-      <a class="search-hotel-batton" href="catalog.html">Поиск гостиницы в Седоне</a>
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a class="search-hotel-batton" href="#">Поиск гостиницы в Седоне</a>
       </section>
       <section class="subscription">
         <h2>Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="subscription-form" action="https://echo.ht,lacademy.ru/" method="post">
-          <label for="subscription-email">Emeil</label>
+        <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="subscription-email">Email</label>
           <input class="field" placeholder="email@example.ru" type="email" name="subscription-email"
-          id="subscription-email" required>
+            id="subscription-email" required>
           <button class="button subscription-button" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
     <footer class="main-footer">
-    <ul class="social-list">
-      <li class="social-item">
-        <a href="https://vk.com/htmlacademy">
-          <img src="#" alt="Vkontakte" width="24" height="14">
-        </a>
-      </li>
-      <li class="social-item">
-        <a href="https://t.me/htmlacademy">
-        <img src="#" alt="Telegram" width="24" height="14">
-        </a>
-      </li>
-      <li class="social-item">
-        <a href="https://www.youtube.com/user/htmlacademyru">
-        <img src="#" alt="Youtube" width="24" height="14">
-        </a>
-      </li>
-    </ul>
-    <a class="contacts-phone" href="tel:+78128121212">+7(812)812-12-12</a>
-    <a class="logo-academy" href="https://htmlacademy.ru/">
-      <img src="#" width="138" height="64" alt=" Логотип .html academy">
-    </a>
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://vk.com/htmlacademy">
+            <img src="#" alt="Vkontakte" width="24" height="14">
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://t.me/htmlacademy">
+            <img src="#" alt="Telegram" width="24" height="14">
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.youtube.com/user/htmlacademyru">
+            <img src="#" alt="Youtube" width="24" height="14">
+          </a>
+        </li>
+      </ul>
+      <a class="contacts-phone" href="tel:+78128121212">+7(812)812-12-12</a>
+      <a class="logo-academy" href="https://htmlacademy.ru/">
+        <img src="#" width="138" height="64" alt=" Логотип .html academy">
+      </a>
     </footer>
   </body>
+
 </html>
