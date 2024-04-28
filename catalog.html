@@ -10,34 +10,32 @@
     <header class="mane-header">
       <nav class="navigation">
         <a class="logo" href="index.html">
-          <img src="#" width="138" height="64" alt=" логотип города Sedona">
+          <img src="#" alt=" логотип города Sedona">
         </a>
         <ul class="site-navigation">
           <li class="site-navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
           <li class="site-navigation-item">
-            <a class="navigation-link" href="about.html"> О седоне</a>
+            <a class="navigation-link" href="about.html">О седоне</a>
           </li>
           <li class="site-navigation-item">
-            <a class="navigation-link-current" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="menu">
           <li class="menu-item">
             <a class="menu-link" href="#">
-              <span class="visually-hidden">Гостиницы</span>
+              <img class="visually-hidden" src="#" alt="поиск гостиницы">
             </a>
           </li>
           <li class="menu-item">
             <a class="menu-link" href="#">
-              <span class="visually-hidden">Избранное</span>
+              <img class="visually-hidden" src="#" alt="избранное">
             </a>
           </li>
           <li class="menu-item">
-            <a class="menu-button" href="#">
-              <span class="visually-hidden">Поиск гостиницы</span>
-            </a>
+            <a class="menu-button" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -45,7 +43,16 @@
     <main class="main-inner">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <a class="breadcrumbs-link">Гостиницы</a>
+        <ul class="breadcrumbs-item">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">
+              <span class="visually-hidden">Главная</span>
+            </a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Гостиницы</a>
+          </li>
+        </ul>
       </header>
       <section class="catalog-products">
         <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
@@ -105,13 +112,13 @@
           <option value="expensive">Сначала дорогие</option>
           <option value="rating">По рейтингу</option>
         </select>
-        <a href="#" class="batton-filter">
+        <a href="#" class="button-filter">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-        <a href="#" class="batton-filter">
+        <a href="#" class="button-filter">
           <span class="visually-hidden">Показать карточку</span>
         </a>
-        <a href="#" class="batton-filter">
+        <a href="#" class="button-filter">
           <span class="visually-hidden">Показать список</span>
         </a>
         <ul class="product-list">
@@ -124,7 +131,7 @@
             <a class="product-card-button" href="#">Подробнее</a>
             <a class="product-card-button-favorites" href="#">В избранном</a>
             <div class="star-rating">
-              <div class="stars">*****</div>
+              <div class="stars"></div>
               <div class="rating">Рейтинг: 8,5</div>
             </div>
           </li>
@@ -137,7 +144,7 @@
             <a class="product-card-button" href="#">Подробнее</a>
             <a class="product-card-button-favorites" href="#">В избранном</a>
             <div class="star-rating">
-              <div class="stars">****</div>
+              <div class="stars"></div>
               <div class="rating">Рейтинг: 9,2</div>
             </div>
           </li>
@@ -150,7 +157,7 @@
             <a class="product-card-button" href="#">Подробнее</a>
             <a class="product-card-button-favorites" href="#">В избранном</a>
             <div class="star-rating">
-              <div class="stars">*</div>
+              <div class="stars"></div>
               <div class="rating">Рейтинг: 6,9</div>
             </div>
           </li>
@@ -163,7 +170,7 @@
             <a class="product-card-button" href="#">Подробнее</a>
             <a class="product-card-button-favorites" href="#">В избранном</a>
             <div class="star-rating">
-              <div class="stars">*</div>
+              <div class="stars"></div>
               <div class="rating">Рейтинг: 5,0</div>
             </div>
           </li>
