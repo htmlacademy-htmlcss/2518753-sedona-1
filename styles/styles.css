@@ -14,11 +14,42 @@
   font-display: swap;
 }
 
-body
-{
-  font-family:"PT Sans", sans-serif;
+body {
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-background-color: #FFFFFF;
-color: #000000;
+  background: #fff;
+  color: #000000;
+}
+
+/*pages*/
+
+.page-header {
+  background: #fff;
+  color: #000000;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  list-style-type: none;
+}
+
+.menu-button {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  list-style-type: none;
+  text-transform: uppercase;
 }
