@@ -53,3 +53,11 @@ body {
   list-style-type: none;
   text-transform: uppercase;
 }
+
+.hero{
+  color: #000000;
+  background-color: #fff;
+  background-image: url(../images/index-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
