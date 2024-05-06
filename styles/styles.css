@@ -126,5 +126,41 @@ body {
 
 .advantages-item-4 {
   background-color: rgba(131, 179, 211, 0.12);
+}
 
+.advantages h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.advantages p {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  font-weight: 400;
+}
+
+.services-item h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.services-item p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.services-item-housing{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item-souvenirs{
+  background-color: rgba(131, 179, 211, 0.12);
 }
