@@ -159,7 +159,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color:#333333;
+  color: #333333;
 }
 
 .services-item-housing {
@@ -197,4 +197,45 @@ body {
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+.subscription {
+  background-image: url(../images/subscribe-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+.subscription h2
+{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.subscription p
+{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.main-footer{
+  color: #000000;
+  background-color: #fff;
+
+ }
+ .social-item a {
+  color: #000000;
+  text-decoration: none;
+ }
+
+.contacts-phone{
+  color: #000000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
 }
