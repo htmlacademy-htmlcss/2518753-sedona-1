@@ -244,54 +244,55 @@ body {
   background-image: url(../images/subscribe-2.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-color: #fff;
+  color: #fff;
 }
 
-.main-inner h2{
+.main-inner h2 {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
 }
-.breadcrumbs-item a
-{font-size: 16px;
+
+.breadcrumbs-item a {
+  font-size: 16px;
   line-height: 21px;
   text-decoration: none;
   color: #FFFFFF;
   font-weight: 400;
 }
 
-.catalog-products .catalog-filter-title{
+.catalog-products .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
 }
 
-.catalog-products .catalog-filter-item{
+.catalog-products .catalog-filter-item {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
 }
 
-.page-search{
+.page-search {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
 }
 
-.select-control{
+.select-control {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
 }
 
-.product-card a{
+.product-card a {
   color: #000000;
   text-decoration: none;
 }
 
-.product-card h3{
+.product-card h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -301,11 +302,11 @@ color: #fff;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-    border: 1px solid #E6E6E6;
-    color:#333333;
+  border: 1px solid #E6E6E6;
+  color: #333333;
 }
 
-.product-card .product-card-button{
+.product-card .product-card-button {
   color: #FFFFFF;
   background-color: #756157;
   font-weight: 700;
@@ -315,7 +316,7 @@ color: #fff;
   text-transform: uppercase;
 }
 
-.product-card .product-card-button-favorites{
+.product-card .product-card-button-favorites {
   color: #FFFFFF;
   background-color: #82B3D3;
   font-weight: 700;
@@ -326,13 +327,14 @@ color: #fff;
 }
 
 .product-card .rating {
-  background-color:  #F2F2F2;
+  background-color: #F2F2F2;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
 }
+
 .pagination a {
   font-weight: 700;
   font-size: 20px;
@@ -343,20 +345,20 @@ color: #fff;
   text-decoration: none;
 }
 
-.subscription-catalog
-{color: #000000;
+.subscription-catalog {
+  color: #000000;
   background-color: #fff;
   text-align: center;
 }
 
-.subscription-catalog h2{
+.subscription-catalog h2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
 
 }
 
-.subscription-catalog p{
+.subscription-catalog p {
   color: #333333;
   font-weight: 400;
   font-size: 22px;
