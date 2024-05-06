@@ -342,3 +342,23 @@ color: #fff;
   background-color: #82B3D3;
   text-decoration: none;
 }
+
+.subscription-catalog
+{color: #000000;
+  background-color: #fff;
+  text-align: center;
+}
+
+.subscription-catalog h2{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+
+}
+
+.subscription-catalog p{
+  color: #333333;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
