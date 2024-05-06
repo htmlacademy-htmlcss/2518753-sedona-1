@@ -54,10 +54,34 @@ body {
   text-transform: uppercase;
 }
 
-.hero{
+.hero {
   color: #000000;
   background-color: #fff;
   background-image: url(../images/index-background.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
+  width: 1200px;
+  height: 485px;
+  text-align: center;
+}
+
+.hero-advantages .lead {
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  background-color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.hero-advantages  p{
+  font-family: "PT Sans", sans-serif;
+  color:#333333;
+  background-color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+
 }
