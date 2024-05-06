@@ -204,38 +204,77 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
-.subscription h2
-{
+.subscription h2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
 }
-.subscription p
-{
+
+.subscription p {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
 }
 
-.main-footer{
+.main-footer {
   color: #000000;
   background-color: #fff;
 
- }
- .social-item a {
+}
+
+.social-item a {
   color: #000000;
   text-decoration: none;
- }
+}
 
-.contacts-phone{
+.contacts-phone {
   color: #000000;
   text-decoration: none;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
+}
+
+.filter-background {
+  background-image: url(../images/subscribe-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+color: #fff;
+}
+
+.main-inner h2{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+.breadcrumbs-item a
+{font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.catalog-products .catalog-filter-title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.catalog-products .catalog-filter-item{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.page-search{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
 }
