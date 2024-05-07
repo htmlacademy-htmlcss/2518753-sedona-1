@@ -98,7 +98,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  color:#000000;
+  color: #000000;
 }
 
 .advantages-list p {
@@ -107,28 +107,30 @@ body {
   line-height: 21px;
   text-align: center;
 }
+.advantages-item{
+  background-color: #82B3D3;
+}
 
-
-.advantages-item-5 {
+.advantages-item-city,
+.advantages-item-bridge {
   background-color: #82B3D3;
   color: #FFFFFF;
 }
-.advantages-item-5 h3{
-  color: #FFFFFF;
-}
-.advantages-item-1 {
-  background-color: #82B3D3;
-  color: #FFFFFF;
-}
-.advantages-item-1 h3{
+
+.advantages-item-city h3 {
   color: #FFFFFF;
 }
 
-.advantages-item-2 {
+.advantages-item-bridge h3 {
+  color: #FFFFFF;
+}
+
+.advantages-item-square,
+.advantages-item-tourists {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-item-3 {
+.advantages-item-road {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -142,16 +144,12 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  color:#000000;
+  color: #000000;
 }
-
-.advantages p {
-  font-size: 22px;
-  line-height: 26px;
+.advantages{
   text-align: center;
-
-  font-weight: 400;
 }
+
 
 .services-item h3 {
   font-weight: 700;
@@ -186,7 +184,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  color:#000000;
+  color: #000000;
 
 }
 
@@ -286,7 +284,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  color:#000000;
+  color: #000000;
 }
 
 .select-control {
@@ -305,7 +303,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  color:#000000;
+  color: #000000;
 }
 
 .product-card {
@@ -365,7 +363,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  color:#000000;
+  color: #000000;
 
 }
 
