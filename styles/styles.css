@@ -19,7 +19,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   background: #fff;
-  color: #000000;
+  color: #333333;
 }
 
 /*pages*/
@@ -98,6 +98,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  color:#000000;
 }
 
 .advantages-list p {
@@ -112,9 +113,14 @@ body {
   background-color: #82B3D3;
   color: #FFFFFF;
 }
-
+.advantages-item-5 h3{
+  color: #FFFFFF;
+}
 .advantages-item-1 {
   background-color: #82B3D3;
+  color: #FFFFFF;
+}
+.advantages-item-1 h3{
   color: #FFFFFF;
 }
 
@@ -136,13 +142,14 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  color:#000000;
 }
 
 .advantages p {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  color: #333333;
+
   font-weight: 400;
 }
 
@@ -179,6 +186,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  color:#000000;
 
 }
 
@@ -278,6 +286,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  color:#000000;
 }
 
 .select-control {
@@ -296,6 +305,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  color:#000000;
 }
 
 .product-card {
@@ -355,6 +365,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  color:#000000;
 
 }
 
