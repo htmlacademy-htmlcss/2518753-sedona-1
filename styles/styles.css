@@ -176,6 +176,7 @@ body {
 }
 
 .search-hotel {
+  font-family: "PT Sans", sans-serif;
   text-align: center;
 }
 
@@ -226,6 +227,7 @@ body {
 }
 
 .main-footer {
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   background-color: #fff;
 
@@ -250,6 +252,10 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #fff;
+}
+
+.main-inner{
+  font-family: "PT Sans", sans-serif;
 }
 
 .main-inner h2 {
