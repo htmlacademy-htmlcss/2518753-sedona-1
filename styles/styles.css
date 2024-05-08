@@ -194,7 +194,7 @@ body {
   text-align: center;
 }
 
-.search-hotel h2 {
+.search-hotel .search-hotel-question {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
