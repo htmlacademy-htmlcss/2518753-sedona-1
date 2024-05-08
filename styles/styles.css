@@ -301,13 +301,13 @@ body {
   list-style: none;
 }
 
-.catalog-products .catalog-filter-title {
+.filter-background .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
 }
 
-.catalog-products .catalog-filter-item {
+.filter-background .catalog-filter-item {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
