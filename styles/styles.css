@@ -383,16 +383,17 @@ body {
 
 .pagination {
   list-style: none;
+
 }
 
 .pagination a {
-  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
   text-align: center;
   color: #FFFFFF;
   background-color: #82B3D3;
-  text-decoration: none;
 }
 
 .subscription-catalog {
