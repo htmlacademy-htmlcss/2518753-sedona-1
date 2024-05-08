@@ -66,13 +66,10 @@ body {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  width: 1200px;
-  height: 485px;
   text-align: center;
 }
 
 .hero-advantages {
-  color: #000000;
   background-color: #ffffff;
 }
 
