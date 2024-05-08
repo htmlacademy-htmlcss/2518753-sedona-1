@@ -114,35 +114,22 @@ body {
   text-align: center;
 }
 
-.advantages-item {
-  background-color: #82b3d3;
-}
-
-.advantages-item-city,
-.advantages-item-bridge {
+.advantages-item-wide {
   background-color: #82b3d3;
   color: #ffffff;
 }
 
-.advantages-item-city h3 {
+.advantages-item-wide h3 {
   color: #ffffff;
 }
 
-.advantages-item-bridge h3 {
-  color: #ffffff;
-}
-
-.advantages-item-square,
-.advantages-item-tourists {
+.advantages-list :nth-child(2),
+.advantages-list :nth-child(4) {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-item-road {
+.advantages-list :nth-child(3) {
   background-color: rgba(131, 179, 211, 0.2);
-}
-
-.advantages-item-4 {
-  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages h2 {
@@ -157,7 +144,6 @@ body {
 .advantages {
   text-align: center;
 }
-
 
 .services-item h3 {
   font-weight: 700;
