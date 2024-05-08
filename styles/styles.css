@@ -63,7 +63,7 @@ body {
 .hero {
   color: #000000;
   background-color: #ffffff;
-  background-image: url(../images/index-background.jpg);
+  background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 1200px;
@@ -216,7 +216,7 @@ body {
 }
 
 .subscription {
-  background-image: url(../images/subscribe-1.jpg);
+  background-image: url("../images/subscribe-1.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
@@ -260,7 +260,7 @@ body {
 }
 
 .filter-background {
-  background-image: url(../images/subscribe-2.jpg);
+  background-image: url("../images/subscribe-2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #ffffff;
