@@ -105,7 +105,6 @@ body {
   color: #000000;
 }
 
-
 .advantages-list p {
   font-weight: 400;
   font-size: 18px;
@@ -113,19 +112,18 @@ body {
   text-align: center;
 }
 
-
-
 .advantages-item-wide h3 {
   color: #ffffff;
 }
 
-.advantages-list :nth-child( even ) {
+.advantages-item:nth-child( even ) {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-list :nth-child( odd ) {
+.advantages-item:nth-child( odd ) {
   background-color: rgba(131, 179, 211, 0.2);
 }
+
 .advantages-list .advantages-item-wide {
   background-color: #82b3d3;
   color: #ffffff;
