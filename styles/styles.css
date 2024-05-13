@@ -381,3 +381,9 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
+
+.page-container
+{
+  width: 1200px;
+  margin: 0 auto;
+}
