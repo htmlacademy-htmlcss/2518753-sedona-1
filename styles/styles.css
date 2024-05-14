@@ -73,7 +73,7 @@ body {
 }
 
 .logo {
-  width: 138px;
+  width: 140px;
 }
 
 .navigation-link {
@@ -339,10 +339,6 @@ body {
   line-height: 40px;
   text-align: center;
   width: 331px;
-}
-
-.logo {
-  width: 115px;
 }
 
 .filter-background {
