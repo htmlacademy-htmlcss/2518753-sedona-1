@@ -165,10 +165,6 @@ body {
   display: flex;
 }
 
-.services-list {
-  list-style: none;
-}
-
 .advantages-list h3 {
   font-weight: 700;
   font-size: 24px;
@@ -218,6 +214,13 @@ body {
 .services-list {
   margin: 0;
   padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.services-item {
+  width: 400px;
+  height: 385px;
 }
 
 .services-item h3 {
