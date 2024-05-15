@@ -347,10 +347,22 @@ body {
   color: #ffffff;
 }
 
+.filter-background-container {
+  width: 1060px;
+  margin: 0 auto;
+}
+
 .main-inner h1 {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+}
+
+.breadcrumbs-list {
+  width: 114px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
 .breadcrumbs-item {
