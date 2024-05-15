@@ -109,21 +109,25 @@
         <button class="button" type="reset">Сбросить</button>
       </form>
     </section>
-    <p class="page-search">Найдено гостиниц: <span>38</span></p>
-    <select class="select-control" aria-label="Сортировка">
-      <option value="cheap">Сначала дешёвые</option>
-      <option value="expensive">Сначала дорогие</option>
-      <option value="rating">По рейтингу</option>
-    </select>
-    <a href="#" class="button-filter">
-      <span class="visually-hidden">Показать карточки</span>
-    </a>
-    <a href="#" class="button-filter">
-      <span class="visually-hidden">Показать карточку</span>
-    </a>
-    <a href="#" class="button-filter">
-      <span class="visually-hidden">Показать список</span>
-    </a>
+    <div class="select-container">
+      <p class="page-search">Найдено гостиниц: <span>38</span></p>
+      <select class="select-control" aria-label="Сортировка">
+        <option value="cheap">Сначала дешёвые</option>
+        <option value="expensive">Сначала дорогие</option>
+        <option value="rating">По рейтингу</option>
+      </select>
+      <div class="button-filter-container">
+        <a href="#" class="button-filter">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+        <a href="#" class="button-filter">
+          <span class="visually-hidden">Показать карточку</span>
+        </a>
+        <a href="#" class="button-filter">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+      </div>
+    </div>
     <ul class="product-list">
       <li class="product-card">
         <a class="product-card-link" href="product.html">
@@ -202,16 +206,18 @@
         <a class="pagination-link" href="#">10</a>
       </li>
     </ul>
-    <section class="subscription-catalog">
-      <h2>Подпишитесь на рассылку</h2>
-      <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label for="subscription-email">Email</label>
-        <input class="field" placeholder="email@example.ru" type="email" name="subscription-email"
-          id="subscription-email" required>
-        <button class="button subscription-button" type="submit">Подписаться</button>
-      </form>
-    </section>
+    <div class="subscription-catalog-container">
+      <section class="subscription-catalog">
+        <h2>Подпишитесь на рассылку</h2>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="subscription-email">Email</label>
+          <input class="field" placeholder="email@example.ru" type="email" name="subscription-email"
+            id="subscription-email" required>
+          <button class="button subscription-button" type="submit">Подписаться</button>
+        </form>
+      </section>
+    </div>
   </main>
   <footer class="main-footer">
     <div class="footer-container">

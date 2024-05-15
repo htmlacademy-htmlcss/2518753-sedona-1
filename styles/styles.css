@@ -370,6 +370,22 @@ body {
   list-style: none;
 }
 
+.select-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.page-search {
+  margin-right: 200px;
+  width: 338px;
+}
+
+.button-filter-container {
+  width: 160px;
+}
+
 .filter-background .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
@@ -395,6 +411,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  width: 292px;
 }
 
 .product-list {
@@ -452,6 +469,10 @@ body {
 
 .pagination {
   list-style: none;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  padding: 0 70px;
 }
 
 .pagination a {
@@ -468,6 +489,14 @@ body {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
+  width: 684px;
+  margin-left: 258px;
+  margin-right: 258px;
+}
+
+.subscription-catalog-container {
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .subscription-catalog h2 {
