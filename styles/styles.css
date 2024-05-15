@@ -352,6 +352,12 @@ body {
   margin: 0 auto;
 }
 
+.catalog-filter {
+  width: 1060px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-inner h1 {
   font-weight: 700;
   font-size: 60px;
