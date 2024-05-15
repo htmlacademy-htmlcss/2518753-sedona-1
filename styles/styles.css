@@ -416,6 +416,9 @@ body {
 
 .product-list {
   list-style: none;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .product-card a {
