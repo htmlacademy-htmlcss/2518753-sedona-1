@@ -29,20 +29,17 @@ body {
   background: #ffffff;
   color: #333333;
 }
-.container-site{
+
+.container-site {
   width: 1200px;
   margin: 0 auto;
 }
+
 .main-container {
   flex-grow: 1;
 }
 
 /**Шапка **/
-
-.main-header {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 .header-container {
   width: 1060px;
@@ -102,11 +99,6 @@ body {
 
 /**main **/
 
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .hero {
   color: #000000;
   background-color: #ffffff;
@@ -150,7 +142,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 
 .advantages-item {
   width: 400px;
@@ -216,7 +207,6 @@ body {
 
 .services-item {
   width: 400px;
-
 }
 
 .services-item h3 {
@@ -509,11 +499,6 @@ body {
   width: 684px;
   margin-left: 258px;
   margin-right: 258px;
-}
-
-.subscription-catalog-container {
-  margin: 0 auto;
-  width: 1200px;
 }
 
 .subscription-catalog h2 {
