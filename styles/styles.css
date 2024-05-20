@@ -29,13 +29,13 @@ body {
   background: #ffffff;
   color: #333333;
 }
-
-.main-container {
-  flex-grow: 1;
+.container-site{
   width: 1200px;
   margin: 0 auto;
 }
-
+.main-container {
+  flex-grow: 1;
+}
 
 /**Шапка **/
 
@@ -149,7 +149,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1200px;
 }
 
 
