@@ -135,11 +135,13 @@ body {
 }
 
 .advantages-item {
-  width: 400px;
+  width: 230px;
+  min-height: 181px;
+  padding: 102px 85px;
 }
 
 .advantages-item-wide {
-  width: 1200px;
+  width: 100%;
   display: flex;
 }
 
