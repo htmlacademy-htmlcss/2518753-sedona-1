@@ -119,7 +119,6 @@ body {
 }
 
 .hero-advantages p {
-  ;
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
@@ -137,12 +136,20 @@ body {
 .advantages-item {
   width: 230px;
   min-height: 181px;
-  padding: 102px 85px;
+  padding: 98px 85px;
 }
 
 .advantages-item-wide {
-  width: 100%;
   display: flex;
+  }
+
+.advantages-item-text{
+  width: 400px;
+}
+
+.advantages-item-img{
+  width: 800px;
+  height: 385px;
 }
 
 .advantages-list h3 {
