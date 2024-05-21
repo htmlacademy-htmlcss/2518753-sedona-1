@@ -203,10 +203,13 @@ body {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .services-item {
-  width: 400px;
+  width: 230px;
+  min-height: 160px;
+  padding: 112.5px 85px;
 }
 
 .services-item h3 {
