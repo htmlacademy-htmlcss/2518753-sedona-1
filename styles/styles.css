@@ -447,8 +447,8 @@ body {
   color: #333333;
   width: 340px;
   min-height: 438px;
-  padd
-
+  padding:20px;
+  box-sizing:border-box;
 }
 
 
