@@ -134,9 +134,10 @@ body {
 }
 
 .advantages-item {
-  width: 230px;
-  min-height: 181px;
+  width: 400px;
+  min-height: 385px;
   padding: 98px 85px;
+  box-sizing: border-box;
 }
 
 .advantages-item-wide {
@@ -144,7 +145,8 @@ body {
 }
 
 .advantages-item-text {
-  width: 400px;
+  width: 230px;
+  min-height: 181px;
 }
 
 .advantages-item-img {
@@ -450,7 +452,6 @@ body {
   padding:20px;
   box-sizing:border-box;
 }
-
 
 .product-card .product-card-button {
   color: #ffffff;
