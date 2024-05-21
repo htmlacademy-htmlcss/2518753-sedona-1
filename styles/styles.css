@@ -447,6 +447,7 @@ body {
   color: #333333;
   width: 340px;
   min-height: 438px;
+  padd
 
 }
 
@@ -483,9 +484,9 @@ body {
 .pagination {
   list-style: none;
   display: flex;
-  width: 400px;
-  justify-content: space-between;
+  justify-content: start;
   padding: 0 70px;
+  gap: 8px;
 }
 
 .pagination a {
