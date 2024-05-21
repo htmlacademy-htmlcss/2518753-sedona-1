@@ -334,7 +334,7 @@ body {
 
 .filter-background-container {
   width: 1060px;
-  margin: 0 auto;
+  padding:0 70px;
 }
 
 .catalog-filter {
