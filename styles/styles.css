@@ -445,7 +445,7 @@ body {
   line-height: 21px;
   border: 1px solid #e6e6e6;
   color: #333333;
-  max-width: 340px;
+  width: 340px;
   min-height: 438px;
 
 }
