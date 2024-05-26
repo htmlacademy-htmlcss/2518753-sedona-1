@@ -487,6 +487,7 @@ body {
   min-height: 438px;
   padding: 20px;
   box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .card-button-container a {
