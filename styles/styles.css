@@ -312,6 +312,8 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .search-hotel p {
@@ -319,6 +321,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  margin-top: 0;
 }
 
 .search-hotel a {
