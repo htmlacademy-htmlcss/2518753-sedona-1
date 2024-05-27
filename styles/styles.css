@@ -680,17 +680,23 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-decoration: none;
-  text-align: center;
   color: #ffffff;
   background-color: #82b3d3;
 }
 
+.subscription-catalog-container {
+  display: flex;
+  min-height: 414px;
+  align-items: center;
+}
+
 .subscription-catalog {
   color: #000000;
+  min-height: 414px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  width: 684px;
-  margin-left: 258px;
-  margin-right: 258px;
 }
 
 .subscription-catalog h2 {
@@ -706,4 +712,6 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  width: 475px;
+
 }
