@@ -332,6 +332,13 @@ body {
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
+  width: 376px;
+  min-height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .subscription {
