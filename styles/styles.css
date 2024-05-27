@@ -140,7 +140,7 @@ body {
   min-height: 485px;
 }
 
-.hero h1{
+.hero h1 {
   margin: 0;
 }
 
@@ -149,8 +149,8 @@ body {
   margin: 0 auto;
 }
 
-.hero-advantages{
-padding: 69px 274.5px;
+.hero-advantages {
+  padding: 69px 274.5px;
 }
 
 .hero-advantages .lead {
@@ -246,6 +246,22 @@ padding: 69px 274.5px;
 
 .advantages {
   text-align: center;
+}
+
+.advantages-item-container {
+  width: 505px;
+  min-height: 118px;
+  padding: 64px 347.5px;
+}
+
+.advantages-item-container h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.advantages-item-container p {
+  font-size: 22px;
+  margin: 0;
 }
 
 .services-list {
