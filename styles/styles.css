@@ -354,6 +354,12 @@ body {
   line-height: 26px;
 }
 
+.search-hotel{
+  width: 592px;
+  min-height: 214px;
+  margin: 96px 304px;
+}
+
 /**подвал **/
 
 .main-footer {
