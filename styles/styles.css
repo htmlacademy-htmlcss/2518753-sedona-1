@@ -149,6 +149,10 @@ body {
   margin: 0 auto;
 }
 
+.hero-advantages{
+padding: 69px 274.5px;
+}
+
 .hero-advantages .lead {
   color: #000000;
   font-size: 30px;
@@ -156,6 +160,10 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  width: 620px;
+  min-height: 72px;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .hero-advantages p {
@@ -163,6 +171,7 @@ body {
   font-weight: 400;
   line-height: 26px;
   text-align: center;
+  margin-top: 0;
 }
 
 .advantages-list {
