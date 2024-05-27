@@ -37,7 +37,7 @@ body {
   flex-grow: 1;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -46,7 +46,7 @@ body {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 
 /**Шапка **/
@@ -408,6 +408,7 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .contacts-phone {
