@@ -231,7 +231,7 @@ body {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.advantages-item:nth-child(5){
+.advantages-item:nth-child(5) {
   flex-direction: row-reverse;
 }
 
