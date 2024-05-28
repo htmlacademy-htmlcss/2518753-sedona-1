@@ -71,9 +71,9 @@ body {
   width: 340px;
   margin-right: 285px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 32px;
 }
 
 .menu {
@@ -83,7 +83,7 @@ body {
   width: 270px;
   margin-left: auto;
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -402,11 +402,18 @@ body {
   text-decoration: none;
 }
 
+.social-item {
+  width: 47px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .social-list {
   list-style: none;
   width: 142px;
   display: flex;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
@@ -484,10 +491,10 @@ body {
 .select-container {
   display: flex;
   width: 1060px;
-  height: 49px;
+  min-height: 49px;
   padding: 50px 70px;
   padding-bottom: 40px;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .page-search {
@@ -529,6 +536,16 @@ body {
   line-height: 21px;
   color: #333333;
   width: 292px;
+  height: 49px;
+  margin-left: 200px;
+  margin-right: 70px;
+}
+
+.button-filter-container {
+  width: 160px;
+  min-height: 48px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .product-list {
@@ -658,18 +675,9 @@ body {
   border-radius: 4px;
 }
 
-.create-line {
-  border: 1px solid #e6e6e6;
-  width: 1060px;
-  height: 0px;
-  margin: 0 70px;
-  margin-bottom: 40px;
-}
-
 .pagination {
   list-style: none;
   display: flex;
-  justify-content: start;
   padding: 0 70px;
   gap: 8px;
   margin: 0;
@@ -683,6 +691,12 @@ body {
   text-decoration: none;
   color: #ffffff;
   background-color: #82b3d3;
+  display: flex;
+  min-width: 60px;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
 
 .subscription-catalog-container {
@@ -714,5 +728,4 @@ body {
   font-size: 22px;
   line-height: 26px;
   width: 475px;
-
 }
