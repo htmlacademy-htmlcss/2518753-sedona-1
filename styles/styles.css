@@ -37,7 +37,7 @@ body {
   flex-grow: 1;
 }
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -46,7 +46,7 @@ body {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-} */
+}
 
 
 /**Шапка **/
@@ -402,12 +402,12 @@ body {
   text-decoration: none;
 }
 
-.social-item{
-width: 47px;
-height: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
+.social-item {
+  width: 47px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-list {
@@ -491,10 +491,10 @@ align-items: center;
 .select-container {
   display: flex;
   width: 1060px;
-  height: 49px;
+  min-height: 49px;
   padding: 50px 70px;
   padding-bottom: 40px;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .page-search {
@@ -536,6 +536,16 @@ align-items: center;
   line-height: 21px;
   color: #333333;
   width: 292px;
+  height: 49px;
+  margin-left: 200px;
+  margin-right: 70px;
+}
+
+.button-filter-container {
+  width: 160px;
+  min-height: 48px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .product-list {
@@ -665,18 +675,9 @@ align-items: center;
   border-radius: 4px;
 }
 
-.create-line {
-  border: 1px solid #e6e6e6;
-  width: 1060px;
-  height: 0px;
-  margin: 0 70px;
-  margin-bottom: 40px;
-}
-
 .pagination {
   list-style: none;
   display: flex;
-  justify-content: start;
   padding: 0 70px;
   gap: 8px;
   margin: 0;
@@ -690,6 +691,12 @@ align-items: center;
   text-decoration: none;
   color: #ffffff;
   background-color: #82b3d3;
+  display: flex;
+  min-width: 60px;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
 
 .subscription-catalog-container {
