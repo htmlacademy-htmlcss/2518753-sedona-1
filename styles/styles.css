@@ -586,11 +586,11 @@ body {
 }
 
 .card-price-container p {
-width: 140px;
+  width: 140px;
 }
 
 .product-card-price {
-  width:140px;
+  width: 140px;
   margin-left: auto;
   text-align: end;
 }
