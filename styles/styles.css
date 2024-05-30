@@ -585,8 +585,14 @@ body {
   margin-bottom: 16px;
 }
 
+.card-price-container p {
+width: 140px;
+}
+
 .product-card-price {
+  width:140px;
   margin-left: auto;
+  text-align: end;
 }
 
 .card-button-container {
