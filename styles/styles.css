@@ -511,10 +511,6 @@ body {
   align-items: center;
 }
 
-.button-filter-container {
-  width: 160px;
-}
-
 .filter-background .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
@@ -584,24 +580,10 @@ body {
   display: block;
 }
 
-.card-price-container {
-  display: flex;
-  margin-bottom: 16px;
-}
-
-.card-price-container p {
-  width: 140px;
-}
-
 .product-card-price {
   width: 140px;
   margin-left: auto;
   text-align: end;
-}
-
-.card-button-container {
-  display: flex;
-  margin-bottom: 16px;
 }
 
 .product-card-button-favorites {
@@ -630,15 +612,13 @@ body {
   padding: 20px 18px;
   box-sizing: border-box;
   border-radius: 4px;
+  display: grid;
+  grid-template-columns: 140px 140px;
+  gap: 16px 20px;
 }
 
-.card-button-container a {
-  width: 140px;
-  min-height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
+.product-card-link {
+  grid-column: 1/ -1;
 }
 
 .product-card .product-card-button {
@@ -649,6 +629,12 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  border-radius: 4px;
+  width: 140px;
+  min-height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-card .product-card-button-favorites {
@@ -659,6 +645,12 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  border-radius: 4px;
+  width: 140px;
+  min-height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-card .rating {
@@ -671,19 +663,19 @@ body {
   margin-left: auto;
   width: 140px;
   min-height: 37px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-card .stars {
   width: 140px;
   min-height: 37px;
-  display: flex;
-  align-items: center;
   justify-content: start;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
 }
 
 .pagination {
