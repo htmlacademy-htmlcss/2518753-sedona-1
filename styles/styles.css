@@ -426,6 +426,9 @@ body {
 .social-item a {
   color: #000000;
   text-decoration: none;
+  display: block;
+  width: 47px;
+  height: 40px;
 }
 
 .social-item {
@@ -437,7 +440,21 @@ body {
 }
 
 .social-item-vk{
-  background-image: ;
+  background-image: url("../images/vk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-item-tg{
+  background-image: url("../images/telegram.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-item-yt{
+  background-image: url("../images/youtube.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .social-list {
