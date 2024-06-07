@@ -83,15 +83,25 @@ body {
   width: 270px;
   margin-left: auto;
   display: flex;
-  gap: 24px;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.menu-link{
+  width: 44px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .logo {
   width: 140px;
   height: 64px;
   margin-right: 28px;
+  display: flex;
+  align-items: center;
 }
 
 .navigation-link {
@@ -120,6 +130,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 14px;
 }
 
 .notification-badge {
@@ -127,7 +138,20 @@ body {
   border-radius: 10px;
   min-width: 20px;
   min-height: 20px;
-}
+  position:relative;
+  right: 11px;
+  top: -10px;
+  color:#ffffff;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 10px;
+  }
+
+  .menu-link{
+    text-decoration: none;
+  }
 
 /**main **/
 
