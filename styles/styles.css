@@ -87,7 +87,7 @@ body {
   flex-wrap: wrap;
 }
 
-.menu-link{
+.menu-link {
   width: 44px;
   height: 64px;
   display: flex;
@@ -138,20 +138,20 @@ body {
   border-radius: 10px;
   min-width: 20px;
   min-height: 20px;
-  position:relative;
+  position: relative;
   right: 11px;
   top: -10px;
-  color:#ffffff;
+  color: #ffffff;
   font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   line-height: 10px;
-  }
+}
 
-  .menu-link{
-    text-decoration: none;
-  }
+.menu-link {
+  text-decoration: none;
+}
 
 /**main **/
 
@@ -236,13 +236,13 @@ body {
   color: #000000;
 }
 
-.advantages-list h3::after{
-  content:"";
+.advantages-list h3::after {
+  content: "";
   width: 60px;
   height: 2px;
   display: block;
   background-color: rgba(0, 0, 0, 0.3);
-  margin:30px  auto;
+  margin: 30px auto;
 }
 
 .advantages-list p {
@@ -259,13 +259,13 @@ body {
 }
 
 
-.advantages-item-wide h3::after{
-  content:"";
+.advantages-item-wide h3::after {
+  content: "";
   width: 60px;
   height: 2px;
   display: block;
   background-color: rgba(255, 255, 255, 0.3);
-  margin:30px  auto;
+  margin: 30px auto;
 }
 
 .advantages-item:nth-child(even) {
@@ -325,7 +325,7 @@ body {
 .services-item {
   width: 230px;
   min-height: 160px;
-  padding: 112.5px 85px;
+  padding: 81px 85px;
 }
 
 .services-item h3 {
@@ -335,6 +335,12 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.services-item-svg {
+  margin-bottom: 30px;
 }
 
 .services-item p {
@@ -343,6 +349,7 @@ body {
   line-height: 21px;
   text-align: center;
   color: #333333;
+  margin: 0;
 }
 
 .services-item:nth-child(odd) {
@@ -419,9 +426,46 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  margin: 0;
+  margin: 0 auto;
   width: 475px;
   margin-bottom: 54px;
+  text-align: center;
+}
+
+.subscription-form {
+  display: flex;
+}
+
+.field {
+  width: 452px;
+  height: 52px;
+}
+
+input::placeholder {
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 20px;
+ outline: none;
+  margin: 0;
+}
+
+
+.button-subscription-button {
+  width: 232px;
+  height: 52px;
+  border-radius: 4px;
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+  border: 0;
+
 }
 
 .search-hotel {
@@ -460,19 +504,19 @@ body {
   align-items: center;
 }
 
-.social-item-vk{
+.social-item-vk {
   background-image: url("../images/vk.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.social-item-tg{
+.social-item-tg {
   background-image: url("../images/telegram.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.social-item-yt{
+.social-item-yt {
   background-image: url("../images/youtube.svg");
   background-repeat: no-repeat;
   background-position: center;
