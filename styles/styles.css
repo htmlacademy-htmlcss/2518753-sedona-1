@@ -843,4 +843,6 @@ input::placeholder {
   font-size: 22px;
   line-height: 26px;
   width: 475px;
+  margin: 0 auto;
+  margin-bottom: 54px;
 }
