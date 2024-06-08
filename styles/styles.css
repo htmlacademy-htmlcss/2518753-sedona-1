@@ -580,6 +580,7 @@ input::placeholder {
   padding: 0;
   margin: 0;
   margin-bottom: 40px;
+  position: relative;
 }
 
 .breadcrumbs-item {
@@ -588,6 +589,18 @@ input::placeholder {
   line-height: 21px;
   color: #ffffff;
   font-weight: 400;
+  margin-right: 28px;
+}
+
+.breadcrumbs-item:not(:last-child)::after{
+  content:" ";
+  background-image: url("../images/arrow-catalog.svg");
+  width: 8px;
+  height: 20px;
+  position: absolute;
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-left: 10px;
 }
 
 .breadcrumbs-item a {
