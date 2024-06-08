@@ -741,7 +741,7 @@ input::placeholder {
 .star-rating {
   display: flex;
   margin-bottom: 0;
-}
+  }
 
 .product-card h3 {
   font-weight: 700;
@@ -763,6 +763,7 @@ input::placeholder {
   display: grid;
   grid-template-columns: 140px 140px;
   gap: 16px 20px;
+
 }
 
 .product-card-link {
