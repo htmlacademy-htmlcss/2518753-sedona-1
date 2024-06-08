@@ -234,6 +234,8 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  padding-right: 27.5px;
+  padding-left: 27.5px;
 }
 
 .advantages-list h3::after {
@@ -439,6 +441,8 @@ body {
 .field {
   width: 452px;
   height: 52px;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 input::placeholder {
