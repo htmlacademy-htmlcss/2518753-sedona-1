@@ -458,6 +458,7 @@ body {
   height: 52px;
   border-radius: 4px;
   box-sizing: border-box;
+  border: none;
 }
 
 input::placeholder {
@@ -483,8 +484,7 @@ input::placeholder {
   text-align: center;
   color: #ffffff;
   background-color: #82b3d3;
-  border: 0;
-
+  border: none;
 }
 
 .search-hotel {
@@ -631,6 +631,21 @@ input::placeholder {
   gap: 16px;
 }
 
+.button-catalog-filter{
+width: 191px;
+height: 36px;
+border-radius: 4px;
+padding: 0;
+border: none;
+font-family: PT Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+
+
+}
+
 .catalog-filter-group {
   padding: 0;
 }
@@ -651,6 +666,11 @@ input::placeholder {
   line-height: 21px;
   text-align: left;
   border: 2px solid rgba(229, 229, 229, 1);
+  color: #333333;
+  width: 292px;
+  height: 49px;
+  margin-left: 200px;
+  margin-right: 70px;
 }
 
 .page-search {
@@ -680,17 +700,6 @@ input::placeholder {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
-}
-
-.select-control {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
-  width: 292px;
-  height: 49px;
-  margin-left: 200px;
-  margin-right: 70px;
 }
 
 .button-filter-container {
