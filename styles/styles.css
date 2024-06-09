@@ -868,6 +868,11 @@ input::placeholder {
   box-sizing: border-box;
 }
 
+.active-pagination {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
 .subscription-catalog-container {
   display: flex;
   min-height: 414px;
