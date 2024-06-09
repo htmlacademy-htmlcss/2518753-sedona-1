@@ -843,6 +843,10 @@ input::placeholder {
   align-items: center;
 }
 
+.product-card .button-favorites-active{
+  background-color: #7db54f;
+}
+
 .product-card .rating {
   background-color: #f2f2f2;
   font-weight: 400;
