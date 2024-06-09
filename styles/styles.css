@@ -471,8 +471,7 @@ input::placeholder {
   padding-left: 20px;
   outline: none;
   margin: 0;
-  }
-
+}
 
 .button-subscription-button {
   width: 232px;
@@ -731,13 +730,13 @@ input::placeholder {
   box-sizing: border-box;
 }
 
-.button-filter-active{
+.button-filter-active {
   border: 2px solid rgba(0, 0, 0, 1);
 }
 
-.button-container-filter{
+.button-container-filter {
   display: grid;
-  gap:32px;
+  gap: 32px;
 }
 
 .product-list {
@@ -845,7 +844,7 @@ input::placeholder {
   align-items: center;
 }
 
-.product-card .button-favorites-active{
+.product-card .button-favorites-active {
   background-color: #7db54f;
 }
 
