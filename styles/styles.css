@@ -577,7 +577,6 @@ input::placeholder {
 .catalog-filter {
   width: 1060px;
   display: flex;
-  justify-content: space-between;
 }
 
 .main-inner h1 {
@@ -732,6 +731,11 @@ input::placeholder {
 
 .button-filter-active{
   border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.button-container-filter{
+  display: grid;
+  gap:32px;
 }
 
 .product-list {
