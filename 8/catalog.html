@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <base href="https://htmlacademy-htmlcss.github.io/2518753-sedona-1/8/">
+</head>
+
+  <body>
+    <div class="container-site">
+      <header class="main-header">
+        <div class="header-container">
+          <a class="logo" href="index.html">
+            <img src="images/logo-sedona.svg" width="140" height="64" alt="логотип города Sedona">
+          </a>
+          <nav class="navigation">
+            <ul class="site-navigation">
+              <li class="site-navigation-item">
+                <a class="navigation-link" href="index.html">Главная</a>
+              </li>
+              <li class="site-navigation-item">
+                <a class="navigation-link" href="about.html">О седоне</a>
+              </li>
+              <li class="site-navigation-item active">
+                <a class="navigation-link" href="catalog.html">Гостиницы</a>
+              </li>
+            </ul>
+            <ul class="menu">
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    fill="none">
+                    <path fill="#000"
+                      d="m18.5 17-3.7-3.67a8 8 0 0 0 1.7-4.87A8 8 0 0 0 8.5.5C4.1.5.5 4.18.5 8.56a8 8 0 0 0 12.9 6.26l3.7 3.68 1.4-1.5Zm-10-2.48a6 6 0 0 1-6-5.96 6 6 0 0 1 12 0 6 6 0 0 1-6 5.96Z" />
+                  </svg>
+                  <span class="visually-hidden">Поиск гостиницы</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    fill="none">
+                    <path fill="#000"
+                      d="M9.9 19a.9.9 0 0 1-.8-.4c-5.4-6.1-6.7-7.5-7-7.9A5.4 5.4 0 0 1 6.5 2C7.8 2 9 2.5 10 3.3a5.46 5.46 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" />
+                  </svg>
+                  <span class="visually-hidden">избранное</span>
+                  <span class="notification-badge">12</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-button" href="#">Хочу сюда!</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main-inner main-container">
+        <section class="filter-background">
+          <div class="filter-background-container">
+            <h1 class="inner-header-title">Гостиницы Седоны</h1>
+            <ul class="breadcrumbs-list">
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link" href="index.html">
+                  <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                    fill="none">
+                    <path fill="#fff" d="m6.5.5-6 5.8v6.2h12V6.3L6.5.5Zm5 11h-10V6.7l5-4.8 5 4.8v4.8Z" />
+                    <path fill="#fff" d="M4.5 10.5h1V8h2v2.5h1V7h-4v3.5Z" />
+                  </svg>
+                  <span class="visually-hidden">Главная</span>
+                </a>
+              </li>
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link" href="catalog.html">Гостиницы</a>
+              </li>
+            </ul>
+            <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru" method="get">
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">Инфраструктура</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="swimming pool" checked>
+                      Бассейн
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="parking" checked>
+                      Парковка
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="Wi-Fi">
+                      Wi-Fi
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">Тип жилья</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="radio" name="product-group" checked>
+                      Гостиница
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="radio" name="product-group">
+                      Мотель
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="radio" name="product-group">
+                      Апартаменты
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+              <div class="button-container-filter">
+                <button class="button-catalog-filter button-submit" type="submit">Применить</button>
+                <button class="button-catalog-filter button-reset " type="reset">Сбросить</button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <div class="select-container">
+          <p class="page-search">Найдено гостиниц: <span>38</span></p>
+          <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="rating">По рейтингу</option>
+          </select>
+          <div class="button-filter-container">
+            <a href="#" class="button-filter button-filter-active">
+              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="14"
+                fill="none">
+                <g fill="#000" clip-path="url(#a)">
+                  <path d="M4 0H0v6h4V0Zm12 0h-4v6h4V0Zm-6 0H6v6h4V0ZM4 8H0v6h4V8Zm12 0h-4v6h4V8Zm-6 0H6v6h4V8Z" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" d="M0 0h16v14H0z" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="visually-hidden">Показать карточки</span>
+            </a>
+            <a href="#" class="button-filter">
+              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="14"
+                fill="none">
+                <g fill="#000" clip-path="url(#a)">
+                  <path d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z" />
+                </g>
+                <defs>
+                  <clipPath id="b">
+                    <path fill="#fff" d="M0 0h16v14H0z" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="visually-hidden">Показать карточку</span>
+            </a>
+            <a href="#" class="button-filter">
+              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="14"
+                fill="none">
+                <g fill="#000" clip-path="url(#a)">
+                  <path
+                    d="M2 0H0v2h2V0Zm14 0H4v2h12V0ZM2 4H0v2h2V4Zm14 0H4v2h12V4ZM2 8H0v2h2V8Zm14 0H4v2h12V8ZM2 12H0v2h2v-2Zm14 0H4v2h12v-2Z" />
+                </g>
+                <defs>
+                  <clipPath id="c">
+                    <path fill="#fff" d="M0 0h16v14H0z" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="visually-hidden">Показать список</span>
+            </a>
+          </div>
+        </div>
+        <ul class="product-list">
+          <li class="product-card">
+            <a class="product-card-link" href="product.html">
+              <img src="images/hotel-1.jpg" width="300" height="212" alt="горы и звёзды">
+              <h3 class="product-card-title">Amara Resort & Spa</h3>
+            </a>
+            <p>Гостиница</p>
+            <span class="product-card-price">От 4000 ₽</span>
+            <a class="product-card-button" href="#">Подробнее</a>
+            <a class="product-card-button-favorites" href="#">В избранноe</a>
+            <div class="stars"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18"
+                height="17" fill="none" viewBox="0 0 18 17">
+                <path fill="#83B3D3" d="m9 0 2.1 6.5H18l-5.6 4 2.2 6.5L9 13l-5.6 4 2.2-6.5-5.6-4h6.9L9 0Z" />
+              </svg></div>
+            <div class="rating">Рейтинг: 8,5</div>
+          </li>
+          <li class="product-card">
+            <a class="product-card-link" href="product.html">
+              <img src="images/hotel-2.jpg" width="300" height="212" alt="горы и радуга">
+              <h3 class="product-card-title">Villas at Poco Diablo</h3>
+            </a>
+            <p>Гостиница</p>
+            <span class="product-card-price">От 5000 ₽</span>
+            <a class="product-card-button" href="#">Подробнее</a>
+            <a class="product-card-button-favorites button-favorites-active" href="#">В избранноe</a>
+            <div class="stars"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18"
+                height="17" fill="none" viewBox="0 0 18 17">
+                <path fill="#83B3D3" d="m9 0 2.1 6.5H18l-5.6 4 2.2 6.5L9 13l-5.6 4 2.2-6.5-5.6-4h6.9L9 0Z" />
+              </svg></div>
+            <div class="rating">Рейтинг: 9,2</div>
+          </li>
+          <li class="product-card">
+            <a class="product-card-link" href="product.html">
+              <img src="images/hotel-3.jpg" width="300" height="212" alt="горы">
+              <h3 class="product-card-title">Desert Quail Inn</h3>
+            </a>
+            <p>Гостиница</p>
+            <span class="product-card-price">От 2500 ₽</span>
+            <a class="product-card-button" href="#">Подробнее</a>
+            <a class="product-card-button-favorites" href="#">В избранноe</a>
+            <div class="stars"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18"
+                height="17" fill="none" viewBox="0 0 18 17">
+                <path fill="#83B3D3" d="m9 0 2.1 6.5H18l-5.6 4 2.2 6.5L9 13l-5.6 4 2.2-6.5-5.6-4h6.9L9 0Z" />
+              </svg></div>
+            <div class="rating">Рейтинг: 6,9</div>
+          </li>
+          <li class="product-card">
+            <a class="product-card-link" href="product.html">
+              <img src="images/hotel-4.jpg" width="300" height="212" alt="горы,ночное небо">
+              <h3 class="product-card-title">GreenTree Inn</h3>
+            </a>
+            <p>Гостиница</p>
+            <span class="product-card-price">От 1500 ₽</span>
+            <a class="product-card-button" href="#">Подробнее</a>
+            <a class="product-card-button-favorites" href="#">В избранноe</a>
+            <div class="stars"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18"
+                height="17" fill="none" viewBox="0 0 18 17">
+                <path fill="#83B3D3" d="m9 0 2.1 6.5H18l-5.6 4 2.2 6.5L9 13l-5.6 4 2.2-6.5-5.6-4h6.9L9 0Z" />
+              </svg></div>
+            <div class="rating">Рейтинг: 5,0</div>
+          </li>
+        </ul>
+        <ul class="pagination">
+          <li class="pagination-item">
+            <a class="pagination-link active-pagination" href="catalog.html">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">...</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">10</a>
+          </li>
+        </ul>
+        <section class="subscription-catalog">
+          <div class="subscription-container">
+            <h2>Подпишитесь на рассылку</h2>
+            <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label for="subscription-email"></label>
+              <input class="field active-pagination" placeholder="Ваш e-mail" type="email" name="subscription-email"
+                id="subscription-email" required>
+              <button class="button-subscription-button" type="submit">Подписаться</button>
+            </form>
+          </div>
+        </section>
+
+      </main>
+      <footer class="main-footer">
+        <ul class="social-list">
+          <li class="social-item social-item-vk">
+            <a href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Vk</span>
+            </a>
+          </li>
+          <li class="social-item social-item-tg">
+            <a href="https://t.me/htmlacademy">
+              <span class="visually-hidden">TG</span>
+            </a>
+          </li>
+          <li class="social-item social-item-yt">
+            <a href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">YT</span>
+            </a>
+          </li>
+        </ul>
+        <a class="contacts-phone" href="tel:+78128121212">+7(812)812-12-12</a>
+        <a class="logo-academy" href="https://htmlacademy.ru/">
+          <img src="images/htmlacademy.svg" width="115" height="33" alt="Логотип HTML-academy">
+        </a>
+      </footer>
+    </div>
+  </body>
+
+</html>
