@@ -929,10 +929,8 @@ input::placeholder {
   padding: 4px;
   box-sizing: border-box;
 }
-
-.active-pagination {
-  background-color: #f2f2f2;
-  color: #000000;
+.pagination-link:active{
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .subscription-catalog-container {
