@@ -971,7 +971,7 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
 
-/* lightness  есть ли такое свойство? */
+/* lightness  есть ли такое свойство?  цвета те же самые в состояниях , но разные оттенки*/
 /* .button-state {
   filter: brightness(100%);
 } */
@@ -989,3 +989,7 @@ input::placeholder {
   background-color: #7db54f;
   color:rgba(255, 255, 255, 1);
   }
+
+  .button-state:focus{
+
+}
