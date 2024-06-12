@@ -972,19 +972,20 @@ input::placeholder {
 }
 
 /* lightness  есть ли такое свойство? */
-.button-state {
+/* .button-state {
   filter: brightness(100%);
-}
+} */
 
-.button-state:disabled {
+/* .button-state:disabled {
   opacity: 10%;
 
-}
+} */
 
-.button-state:hover {
+/* .button-state:hover {
   filter: brightness(80%);
-}
+} */
 
 .button-state:active {
   background-color: #7db54f;
-}
+  color:rgba(255, 255, 255, 1);
+  }
