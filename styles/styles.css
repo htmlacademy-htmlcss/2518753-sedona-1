@@ -697,11 +697,11 @@ input::placeholder {
 
 .select-control:focus {
   outline: none;
-  border-color: rgba(104, 162, 202, 1);
+  border-color: rgba(63, 94, 114, 1);
 }
 
 .select-control:active {
-  border-color: rgba(63, 94, 114, 1);
+  border-color: rgba(104, 162, 202, 1);
 }
 
 .select-control:disabled{
