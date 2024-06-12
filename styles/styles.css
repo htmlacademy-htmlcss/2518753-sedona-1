@@ -172,7 +172,9 @@ body {
 
 .hero {
   color: #000000;
-  background-image: url("../images/index-background.jpg");
+  background:
+    url(../images/hero-border.svg) bottom,
+    url(../images/index-background.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
