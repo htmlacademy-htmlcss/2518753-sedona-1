@@ -929,7 +929,8 @@ input::placeholder {
   padding: 4px;
   box-sizing: border-box;
 }
-.pagination-link:active{
+
+.pagination-link:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
