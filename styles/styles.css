@@ -682,6 +682,29 @@ input::placeholder {
   height: 49px;
   margin-left: 200px;
   margin-right: 70px;
+  border-radius: 4px;
+  appearance: none;
+  padding:12px 20px;
+  background-image: url("../images/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+
+.select-control:hover {
+  border-color: rgba(104, 162, 202, 1);
+}
+
+.select-control:focus {
+  outline: none;
+  border-color: rgba(104, 162, 202, 1);
+}
+
+.select-control:active {
+  border-color: rgba(63, 94, 114, 1);
+}
+
+.select-control:disabled{
+  opacity: 30%;
 }
 
 .page-search {
