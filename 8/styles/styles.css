@@ -172,7 +172,9 @@ body {
 
 .hero {
   color: #000000;
-  background-image: url("../images/index-background.jpg");
+  background:
+    url(../images/hero-border.svg) bottom,
+    url(../images/index-background.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
@@ -674,12 +676,35 @@ input::placeholder {
   font-weight: 400;
   line-height: 21px;
   text-align: left;
-  border: 2px solid rgba(229, 229, 229, 1);
   color: #333333;
   width: 292px;
   height: 49px;
   margin-left: 200px;
   margin-right: 70px;
+  border-radius: 4px;
+  appearance: none;
+  padding: 12px 20px;
+  padding-right: 40px;
+  background-image: url("../images/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+
+.border-state {
+  border: 2px solid rgba(229, 229, 229, 1);
+}
+
+.border-state:hover {
+  border-color: rgba(104, 162, 202, 1);
+}
+
+.border-state:focus {
+  outline: none;
+  border-color: rgba(63, 94, 114, 1);
+}
+
+.border-state:disabled {
+  opacity: 30%;
 }
 
 .page-search {
@@ -730,9 +755,19 @@ input::placeholder {
   box-sizing: border-box;
 }
 
-.button-filter-active {
-  border: 2px solid rgba(0, 0, 0, 1);
+.button-filter-state:hover {
+  border: 2px solid hsla(0, 0%, 0%, 1);
 }
+
+.button-filter-state:focus {
+  outline: none;
+  border: 2px solid hsla(204, 48%, 60%, 1);
+}
+
+.button-filter-state:active {
+  border: 2px solid hsla(0, 0%, 0%, 1)
+}
+
 
 .button-container-filter {
   display: grid;
@@ -844,10 +879,6 @@ input::placeholder {
   align-items: center;
 }
 
-.product-card .button-favorites-active {
-  background-color: #7db54f;
-}
-
 .product-card .rating {
   background-color: #f2f2f2;
   font-weight: 400;
@@ -899,9 +930,8 @@ input::placeholder {
   box-sizing: border-box;
 }
 
-.active-pagination {
-  background-color: #f2f2f2;
-  color: #000000;
+.pagination-link:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .subscription-catalog-container {
@@ -935,4 +965,31 @@ input::placeholder {
   width: 475px;
   margin: 0 auto;
   margin-bottom: 54px;
+}
+
+.button-state:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* lightness  есть ли такое свойство?  цвета те же самые в состояниях , но разные оттенки*/
+/* .button-state {
+  filter: brightness(100%);
+} */
+
+/* .button-state:disabled {
+  opacity: 10%;
+
+} */
+
+/* .button-state:hover {
+  filter: brightness(80%);
+} */
+
+.button-state:active {
+  background-color: #7db54f;
+  color:rgba(255, 255, 255, 1);
+  }
+
+  .button-state:focus{
+
 }
