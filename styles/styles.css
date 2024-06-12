@@ -760,7 +760,7 @@ input::placeholder {
 }
 
 .button-filter-state:focus {
-  outline:none;
+  outline: none;
   border: 2px solid hsla(204, 48%, 60%, 1);
 }
 
@@ -984,4 +984,8 @@ input::placeholder {
 
 .button-state:hover {
   filter: brightness(80%);
+}
+
+.button-state:active {
+  background-color: #7db54f;
 }
