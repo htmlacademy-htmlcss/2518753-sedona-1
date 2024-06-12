@@ -685,6 +685,7 @@ input::placeholder {
   border-radius: 4px;
   appearance: none;
   padding:12px 20px;
+  padding-right: 40px;
   background-image: url("../images/arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
