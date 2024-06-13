@@ -88,7 +88,6 @@ body {
 .site-navigation .active {
   border-bottom: 2px solid rgba(117, 98, 87, 1);
   box-sizing: border-box;
-
 }
 
 .menu {
@@ -147,6 +146,20 @@ body {
   justify-content: center;
   margin-left: 14px;
 }
+
+.menu-button:focus {
+  outline: none;
+  background: #615048;
+}
+
+.menu-button:hover {
+  background: #615048;
+}
+
+.menu-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 
 .notification-badge {
   background-color: #7db54f;
@@ -418,6 +431,19 @@ body {
   border-radius: 4px;
 }
 
+.search-hotel-button:focus {
+  outline: none;
+  background: #615048;
+}
+
+.search-hotel-button:hover {
+  background: #615048;
+}
+
+.search-hotel-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .subscription {
   background-image: url("../images/subscribe-1.jpg");
   background-repeat: no-repeat;
@@ -488,6 +514,19 @@ input::placeholder {
   color: #ffffff;
   background-color: #82b3d3;
   border: none;
+}
+
+.button-subscription-button:focus {
+  background: #68A2CA;
+  outline: none;
+}
+
+.button-subscription-button:hover {
+  background: #68A2CA;
+}
+
+.button-subscription-button:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .search-hotel {
@@ -652,9 +691,45 @@ input::placeholder {
   background-color: #82b3d3;
 }
 
+.button-submit:focus {
+  outline: none;
+  background: #68a2ca;
+}
+
+.button-submit:hover {
+  background: #68a2ca;
+
+}
+
+.button-submit:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-submit:disabled {
+  opacity: 10%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
 .button-reset {
   color: #ffffff;
   background-color: rgba(130, 179, 211, 0);
+}
+
+.button-reset:hover {
+  opacity: 60%;
+}
+
+.button-reset:focus {
+  outline: none;
+  border: 3px solid #83b3d3;
+}
+
+.button-reset:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-reset:disabled {
+  opacity: 10%;
 }
 
 .catalog-filter-group {
@@ -965,31 +1040,4 @@ input::placeholder {
   width: 475px;
   margin: 0 auto;
   margin-bottom: 54px;
-}
-
-.button-state:active {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-/* lightness  есть ли такое свойство?  цвета те же самые в состояниях , но разные оттенки*/
-/* .button-state {
-  filter: brightness(100%);
-} */
-
-/* .button-state:disabled {
-  opacity: 10%;
-
-} */
-
-/* .button-state:hover {
-  filter: brightness(80%);
-} */
-
-.button-state:active {
-  background-color: #7db54f;
-  color:rgba(255, 255, 255, 1);
-  }
-
-  .button-state:focus{
-
 }
