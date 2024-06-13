@@ -569,10 +569,9 @@ input::placeholder {
   color: #68a2ca;
 }
 
-.social-item a :focus {
-  outline: none;
-  color: #68a2ca;
-}
+/* .social-item a :focus {
+  color: #7db54f;
+} */
 
 .social-item a :active {
   color: rgba(104, 162, 202, 0.3);
@@ -597,8 +596,16 @@ input::placeholder {
   width: 331px;
 }
 
-.contacts-phone :hover {
+.contacts-phone:hover {
   color: #756157;
+}
+
+.contacts-phone:focus {
+  color: #756157;
+}
+
+.contacts-phone:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .filter-background {
