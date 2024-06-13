@@ -549,40 +549,34 @@ input::placeholder {
   align-items: center;
 }
 
+
 .social-item a {
   text-decoration: none;
-  display: block;
   width: 47px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
 }
 
 .social-item svg {
-  width: 47px;
-  height: 40px;
+  padding: 13px 12px;
 }
 
-.social-item svg{
+.social-item svg {
   color: #83b3d3;
-  display: block;
 }
 
-.social-item :hover {
-  fill: #68a2ca;
+.social-item a :hover {
+  color: #68a2ca;
 }
 
-.social-item :focus {
+.social-item a :focus {
   outline: none;
-  fill: #68a2ca;
+  color: #68a2ca;
 }
 
-.social-item :active {
-  color:rgba(104, 162, 202, 0.3);
+.social-item a :active {
+  color: rgba(104, 162, 202, 0.3);
 }
-
-
 
 .social-list {
   list-style: none;
@@ -601,6 +595,10 @@ input::placeholder {
   line-height: 40px;
   text-align: center;
   width: 331px;
+}
+
+.contacts-phone :hover {
+  color: #756157;
 }
 
 .filter-background {
