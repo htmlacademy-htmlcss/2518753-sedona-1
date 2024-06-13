@@ -664,6 +664,19 @@ input::placeholder {
   text-decoration: none;
 }
 
+.breadcrumbs-link:hover {
+color:rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:focus{
+  outline: none;
+  color: #ffffff;
+}
+
+.breadcrumbs-link:active{
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .catalog-filter-list {
   list-style: none;
   padding: 0;
@@ -770,12 +783,12 @@ input::placeholder {
 }
 
 .select-control:hover {
-  border-color: rgba(104, 162, 202, 1);
+  border-color: #68a2Ca;
 }
 
 .select-control:focus {
   outline: none;
-  border-color: rgba(63, 94, 114, 1);
+  border-color: #3f5e72;
 }
 
 .select-control:disabled {
@@ -1047,7 +1060,7 @@ input::placeholder {
 }
 
 
-.pagination-item .pagination-active{
+.pagination-item .pagination-active {
   background: #f2f2f2;
   color: #000000;
 }
