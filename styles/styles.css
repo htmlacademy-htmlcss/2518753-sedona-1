@@ -517,12 +517,12 @@ input::placeholder {
 }
 
 .button-subscription-button:focus {
-  background: #68A2CA;
+  background: #68a2ca;
   outline: none;
 }
 
 .button-subscription-button:hover {
-  background: #68A2CA;
+  background: #68a2ca;
 }
 
 .button-subscription-button:active {
@@ -550,14 +550,8 @@ input::placeholder {
 }
 
 .social-item a {
-  color: #000000;
   text-decoration: none;
   display: block;
-  width: 47px;
-  height: 40px;
-}
-
-.social-item {
   width: 47px;
   height: 40px;
   display: flex;
@@ -565,23 +559,30 @@ input::placeholder {
   align-items: center;
 }
 
-.social-item-vk {
-  background-image: url("../images/vk.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+.social-item svg {
+  width: 47px;
+  height: 40px;
 }
 
-.social-item-tg {
-  background-image: url("../images/telegram.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+.social-item svg{
+  color: #83b3d3;
+  display: block;
 }
 
-.social-item-yt {
-  background-image: url("../images/youtube.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+.social-item :hover {
+  fill: #68a2ca;
 }
+
+.social-item :focus {
+  outline: none;
+  fill: #68a2ca;
+}
+
+.social-item :active {
+  color:rgba(104, 162, 202, 0.3);
+}
+
+
 
 .social-list {
   list-style: none;
@@ -665,15 +666,15 @@ input::placeholder {
 }
 
 .breadcrumbs-link:hover {
-color:rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.breadcrumbs-link:focus{
+.breadcrumbs-link:focus {
   outline: none;
   color: #ffffff;
 }
 
-.breadcrumbs-link:active{
+.breadcrumbs-link:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
