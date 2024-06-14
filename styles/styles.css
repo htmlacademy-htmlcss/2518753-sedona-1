@@ -608,6 +608,27 @@ input::placeholder {
   color: rgba(117, 97, 87, 0.3);
 }
 
+.logo-academy:hover {
+  color: #756157;
+}
+
+.logo-academy:focus {
+  color: #756157;
+}
+
+.logo-academy:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.logo-academy:visited {
+  color: 000000;
+}
+
+.logo-academy {
+  color: #000000;
+}
+
+
 .filter-background {
   background-image: url("../images/subscribe-2.jpg");
   background-repeat: no-repeat;
