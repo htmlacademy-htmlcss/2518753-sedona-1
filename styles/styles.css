@@ -272,6 +272,7 @@ body {
   color: #000000;
   padding-right: 27.5px;
   padding-left: 27.5px;
+  word-break: break-word;
 }
 
 .advantages-list h3::after {
@@ -364,6 +365,7 @@ body {
   width: 230px;
   min-height: 160px;
   padding: 81px 85px;
+  padding-top: 144px;
 }
 
 .services-item h3 {
@@ -375,6 +377,24 @@ body {
   color: #000000;
   margin: 0;
   margin-bottom: 30px;
+}
+
+.services-item-house {
+  background-image: url("../images/house.svg");
+  background-repeat: no-repeat;
+  background-position: center 34px;
+}
+
+.services-item-food {
+  background-image: url("../images/icon-food.svg");
+  background-repeat: no-repeat;
+  background-position: center 34px;
+}
+
+.services-item-souvenirs {
+  background-image: url("../images/present.svg");
+  background-repeat: no-repeat;
+  background-position: center 30px;
 }
 
 .services-item-svg {
