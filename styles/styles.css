@@ -1047,6 +1047,23 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.product-card .button-active {
+  background-color: #7db54f;
+}
+
+
+.product-card .button-active:focus {
+  background-color: #6c9e42;
+}
+
+.product-card .button-active:hover {
+  background-color: #6c9e42;
+}
+
+.product-card .button-active:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 
 .product-card .rating {
   background-color: #f2f2f2;
