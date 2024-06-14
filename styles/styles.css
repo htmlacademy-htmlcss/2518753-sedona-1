@@ -896,16 +896,16 @@ input::placeholder {
   box-sizing: border-box;
 }
 
-.button-filter-state:hover {
+.button-filter:hover {
   border: 2px solid hsla(0, 0%, 0%, 1);
 }
 
-.button-filter-state:focus {
+.button-filter:focus {
   outline: none;
   border: 2px solid hsla(204, 48%, 60%, 1);
 }
 
-.button-filter-state:active {
+.button-filter:active {
   border: 2px solid hsla(0, 0%, 0%, 1)
 }
 
