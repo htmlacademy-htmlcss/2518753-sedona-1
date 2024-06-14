@@ -76,18 +76,24 @@ body {
   gap: 32px;
 }
 
-.site-navigation-item {
+.navigation-link {
   width: auto;
   min-height: 64px;
   display: flex;
   align-items: center;
   box-sizing: content-box;
   padding: 0;
+  position: relative;
 }
 
-.site-navigation .active {
-  border-bottom: 2px solid rgba(117, 98, 87, 1);
-  box-sizing: border-box;
+.active-link::before {
+  content: "";
+  height: 2px;
+  background-color: #756257;
+  margin: 20px auto;
+  width: 100%;
+  position: absolute;
+  bottom: -20px;
 }
 
 .menu {
