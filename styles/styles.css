@@ -595,9 +595,12 @@ input::placeholder {
   color: #68a2ca;
 }
 
-/* .social-item a :focus {
+/* не работает focus */
+
+.social-item a :focus {
+  outline: #6c9e42;
   color: #7db54f;
-} */
+}
 
 .social-item a :active {
   color: rgba(104, 162, 202, 0.3);
@@ -653,7 +656,6 @@ input::placeholder {
 .logo-academy {
   color: #000000;
 }
-
 
 .filter-background {
   background-image: url("../images/subscribe-2.jpg");
@@ -1051,7 +1053,6 @@ input::placeholder {
   background-color: #7db54f;
 }
 
-
 .product-card .button-active:focus {
   background-color: #6c9e42;
 }
@@ -1063,7 +1064,6 @@ input::placeholder {
 .product-card .button-active:active {
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 .product-card .rating {
   background-color: #f2f2f2;
