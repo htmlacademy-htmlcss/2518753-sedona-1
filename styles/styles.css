@@ -378,6 +378,7 @@ body {
   margin-bottom: 30px;
 }
 
+/* стоят не правильно,не пойму как правильно */
 .services-item-house {
   background-image: url("../images/house.svg");
   background-repeat: no-repeat;
