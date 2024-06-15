@@ -154,7 +154,6 @@ body {
 }
 
 .menu-button:focus {
-  outline: none;
   background: #615048;
 }
 
@@ -458,7 +457,6 @@ body {
 }
 
 .search-hotel-button:focus {
-  outline: none;
   background: #615048;
 }
 
@@ -523,7 +521,6 @@ input::placeholder {
   line-height: 24px;
   text-align: left;
   padding-left: 20px;
-  outline: none;
   margin: 0;
 }
 
@@ -544,7 +541,6 @@ input::placeholder {
 
 .button-subscription-button:focus {
   background: #68a2ca;
-  outline: none;
 }
 
 .button-subscription-button:hover {
@@ -724,7 +720,6 @@ input::placeholder {
 }
 
 .breadcrumbs-link:focus {
-  outline: none;
   color: #ffffff;
 }
 
@@ -760,7 +755,6 @@ input::placeholder {
 }
 
 .button-submit:focus {
-  outline: none;
   background: #68a2ca;
 }
 
@@ -788,7 +782,6 @@ input::placeholder {
 }
 
 .button-reset:focus {
-  outline: none;
   border: 3px solid #83b3d3;
 }
 
@@ -842,7 +835,6 @@ input::placeholder {
 }
 
 .select-control:focus {
-  outline: none;
   border-color: #3f5e72;
 }
 
@@ -903,7 +895,6 @@ input::placeholder {
 }
 
 .button-filter:focus {
-  outline: none;
   border: 2px solid hsla(204, 48%, 60%, 1);
 }
 
@@ -1007,7 +998,6 @@ input::placeholder {
 }
 
 .product-card .product-card-button:focus {
-  outline: none;
   background: #615048;
 }
 
@@ -1037,7 +1027,6 @@ input::placeholder {
 
 
 .product-card .product-card-button-favorites:focus {
-  outline: none;
   background: #68a2ca;
 }
 
@@ -1117,7 +1106,6 @@ input::placeholder {
 }
 
 .pagination-link:focus {
-  outline: none;
   background: #68a2ca;
 }
 
