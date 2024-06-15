@@ -1073,11 +1073,26 @@ input::placeholder {
 
 .product-card .stars {
   width: 140px;
-  min-height: 37px;
+  height: 33px;
   justify-content: start;
   border-radius: 4px;
   display: flex;
   align-items: center;
+  background-image: url("../images/star-catalog.svg");
+  background-repeat: space;
+  background-position: 0;
+}
+
+.product-card .stars-four {
+  width: 80px;
+}
+
+.product-card .stars-three {
+  width: 60px;
+}
+
+.product-card .stars-two {
+  width: 40px;
 }
 
 .pagination {
