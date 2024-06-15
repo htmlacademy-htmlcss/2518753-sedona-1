@@ -387,11 +387,8 @@ body {
 }
 
 .services-item {
-  width: 230px;
-  min-height: 121px;
-  padding: 85px;
-  padding-top: 144px;
-  padding-bottom:81px;
+  width: 400px;
+  min-height: 385px;
 }
 
 .services-item h3 {
@@ -403,25 +400,35 @@ body {
   color: #000000;
   margin: 0;
   margin-bottom: 30px;
+  padding-top: 102px;
 }
 
 /* стоят не правильно,не пойму как правильно */
 .services-item-house {
   background-image: url("../images/house.svg");
   background-repeat: no-repeat;
-  background-position: center 34px;
+  background-position: top center;
+  width: 230px;
+  min-height:223px;
+  margin: 85px 81px;
 }
 
 .services-item-food {
   background-image: url("../images/icon-food.svg");
   background-repeat: no-repeat;
-  background-position: center 34px;
+  background-position: top center;
+  width: 230px;
+  min-height:223px;
+  margin: 85px 81px;
 }
 
 .services-item-souvenirs {
   background-image: url("../images/present.svg");
   background-repeat: no-repeat;
-  background-position: center 30px;
+  background-position: top center;
+  width: 230px;
+  min-height:223px;
+  margin: 85px 81px;
 }
 
 .services-item-svg {
