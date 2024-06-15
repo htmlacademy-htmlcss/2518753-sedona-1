@@ -1139,6 +1139,11 @@ input::placeholder {
   color: #000000;
 }
 
+.pagination-item .ellipses {
+  background-color: rgba(130, 179, 211, 0);
+  color: #000000;
+}
+
 .subscription-catalog-container {
   display: flex;
   min-height: 414px;
@@ -1170,4 +1175,8 @@ input::placeholder {
   width: 475px;
   margin: 0 auto;
   margin-bottom: 54px;
+}
+
+.subscription-catalog input {
+  background-color: #f2f2f2;
 }
