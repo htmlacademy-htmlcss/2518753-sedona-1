@@ -388,9 +388,10 @@ body {
 
 .services-item {
   width: 230px;
-  min-height: 160px;
-  padding: 81px 85px;
+  min-height: 121px;
+  padding: 85px;
   padding-top: 144px;
+  padding-bottom:81px;
 }
 
 .services-item h3 {
