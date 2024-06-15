@@ -1073,13 +1073,13 @@ input::placeholder {
 
 .product-card .stars {
   width: 140px;
-  height: 33px;
+  height: 37px;
   justify-content: start;
   border-radius: 4px;
   display: flex;
   align-items: center;
   background-image: url("../images/star-catalog.svg");
-  background-repeat: space;
+  background-repeat: space no-repeat;
   background-position: 0;
 }
 
