@@ -420,7 +420,7 @@ body {
 .services-item-house {
   background-image: url("../images/house.svg");
   background-repeat: no-repeat;
-  background-position: 50% 2%;
+  background-position: 50% 3%;
   width: 230px;
   min-height: 223px;
   margin: 85px 81px;
@@ -429,7 +429,7 @@ body {
 .services-item-food {
   background-image: url("../images/icon-food.svg");
   background-repeat: no-repeat;
-  background-position: 50% 2%;
+  background-position: 50% 3.5%;
   width: 230px;
   min-height: 223px;
   margin: 85px 81px;
