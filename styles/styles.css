@@ -1039,7 +1039,6 @@ input::placeholder {
   display: grid;
   grid-template-columns: 140px 140px;
   gap: 16px 20px;
-
 }
 
 .product-card-link {
