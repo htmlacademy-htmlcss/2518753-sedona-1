@@ -77,7 +77,13 @@ body {
 }
 
 .navigation-link {
-  width: auto;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  list-style-type: none;
   min-height: 64px;
   display: flex;
   align-items: center;
@@ -147,16 +153,6 @@ body {
   margin-right: 28px;
   display: flex;
   align-items: center;
-}
-
-.navigation-link {
-  font-size: 20px;
-  line-height: 24px;
-  color: #000000;
-  text-decoration: none;
-  font-weight: 700;
-  text-align: center;
-  list-style-type: none;
 }
 
 .menu-button {
