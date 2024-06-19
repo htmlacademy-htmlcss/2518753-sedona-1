@@ -880,6 +880,7 @@ body {
 }
 
 .select-control:focus {
+  outline: none;
   border-color: #3f5e72;
 }
 
@@ -936,15 +937,16 @@ body {
 }
 
 .button-filter:hover {
-  border: 2px solid hsla(0, 0%, 0%, 1);
+  border: 2px solid #000000;
 }
 
 .button-filter:focus {
-  border: 2px solid hsla(204, 48%, 60%, 1);
+  outline: none;
+  border: 2px solid #68a2ca;
 }
 
 .button-filter:active {
-  border: 2px solid hsla(0, 0%, 0%, 1)
+  border: 2px solid #000000;
 }
 
 
