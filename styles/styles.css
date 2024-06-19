@@ -434,7 +434,7 @@ body {
 .services-item-souvenirs {
   background-image: url("../images/present.svg");
   background-repeat: no-repeat;
-  background-position:50% 0;
+  background-position: 50% 0;
   width: 230px;
   min-height: 223px;
   margin: 85px 81px;
@@ -559,7 +559,7 @@ body {
   border: none;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
