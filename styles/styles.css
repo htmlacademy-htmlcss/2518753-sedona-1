@@ -416,7 +416,7 @@ body {
 .services-item-house {
   background-image: url("../images/house.svg");
   background-repeat: no-repeat;
-  background-position: 50% 3%;
+  background-position: 50% 3px;
   width: 230px;
   min-height: 223px;
   margin: 85px 81px;
@@ -425,7 +425,7 @@ body {
 .services-item-food {
   background-image: url("../images/icon-food.svg");
   background-repeat: no-repeat;
-  background-position: 50% 3.5%;
+  background-position: 50% 4px;
   width: 230px;
   min-height: 223px;
   margin: 85px 81px;
@@ -434,7 +434,7 @@ body {
 .services-item-souvenirs {
   background-image: url("../images/present.svg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position:50% 0;
   width: 230px;
   min-height: 223px;
   margin: 85px 81px;
