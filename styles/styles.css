@@ -1196,7 +1196,7 @@ body {
 }
 
 .pagination-item .ellipses {
-  background-color: rgba(130, 179, 211, 0);
+  background-color: transparent;
   color: #000000;
 }
 
