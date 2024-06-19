@@ -884,7 +884,7 @@ body {
 }
 
 .select-control:disabled {
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 .page-search {
