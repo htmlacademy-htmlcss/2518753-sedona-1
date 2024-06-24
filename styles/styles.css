@@ -565,6 +565,7 @@ body {
   line-height: 24px;
   text-align: left;
   padding-left: 20px;
+  padding-right: 20px;
   margin: 0;
 }
 
@@ -615,30 +616,24 @@ body {
   align-items: center;
 }
 
-
 .social-item a {
   text-decoration: none;
   width: 47px;
   height: 40px;
   display: block;
+  color: #83b3d3;
 }
 
 .social-item svg {
   padding: 13px 12px;
 }
 
-.social-item svg {
-  color: #83b3d3;
-}
-
 .social-item a:hover {
   color: #68a2ca;
 }
 
-/* не работает focus */
-
 .social-item a:focus {
-  color: #7db54f;
+  color: #68a2ca;
 }
 
 .social-item a:active {
