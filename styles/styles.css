@@ -224,8 +224,8 @@ body {
 .hero {
   color: #000000;
   background:
-    url(../images/hero-border.svg) bottom,
-    url(../images/index-background.jpg);
+    url("../images/hero-border.svg") bottom,
+    url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
@@ -574,7 +574,7 @@ body {
   height: 52px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
