@@ -75,7 +75,7 @@
             <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
             <!-- Фильтрация -->
             <form class="catalog-filter" action="https://echo.htmlacademy.ru" method="get">
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group filter-infrastructure">
                 <legend class="catalog-filter-title">Инфраструктура</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
@@ -98,8 +98,8 @@
                   </li>
                 </ul>
               </fieldset>
-              <fieldset class="catalog-filter-group">
-                <legend class="catalog-filter-title">Тип жилья</legend>
+              <fieldset class="catalog-filter-group filter-type-house">
+                <legend class="catalog-filter-title ">Тип Жилья</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="control">
@@ -122,14 +122,14 @@
                 </ul>
               </fieldset>
               <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-                <fieldset class="catalog-filter-group">
+                <fieldset class="catalog-filter-range">
                   <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                   <div class="range">
                     <div class="range-wrapper-inputs">
-                        <input class="range-input" type="number" value="1000" name="min-price"
-                          style=" width: 143px">
-                        <input class="range-input" type="number" value="100000" name="max-price"
-                          style=" width: 143px">
+                      <input class="range-input range-min" type="number" value="1000" name="min-price"
+                        style=" width: 143px">
+                      <input class="range-input range-max" type="number" value="100000" name="max-price"
+                        style=" width: 143px">
                     </div>
                     <div class="range-scale">
                       <div class="range-bar" style="left: 42px; width: 287px">
