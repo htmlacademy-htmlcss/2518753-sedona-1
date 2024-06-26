@@ -788,6 +788,38 @@ body {
   text-transform: uppercase;
 }
 
+.catalog-filter {
+  width: 228px;
+  height: 160px;
+}
+
+.range-wrapper-inputs {
+  display: flex;
+  margin-top: 32px;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-bottom: 16px;
+  background-color: #242424;
+  border-radius: 2px;
+  margin-top: 36px;
+}
+
+.range-input {
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  width: 143px;
+  height: 48px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+}
+
 .button-submit {
   color: #ffffff;
   background-color: #82b3d3;
