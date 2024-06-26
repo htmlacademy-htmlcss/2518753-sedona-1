@@ -803,7 +803,7 @@ body {
 .range-bar {
   position: absolute;
   height: 4px;
-  background-color:#ffffff;
+  background-color: #ffffff;
 }
 
 .range-input {
@@ -829,12 +829,30 @@ body {
   border-bottom-left-radius: 0;
 }
 
+.range-toggle {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.toggle-min {
+  top: -8px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: 0px;
+}
+
+
+
 .button-submit {
   color: #ffffff;
   background-color: #82b3d3;
 }
 
-.range-wrapper-inputs{
+.range-wrapper-inputs {
   margin-bottom: 36px;
 }
 
