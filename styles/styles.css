@@ -796,10 +796,14 @@ body {
 .range-scale {
   position: relative;
   height: 4px;
-  margin-bottom: 16px;
   background-color: #242424;
   border-radius: 2px;
-  margin-top: 36px;
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color:#ffffff;
 }
 
 .range-input {
@@ -828,6 +832,10 @@ body {
 .button-submit {
   color: #ffffff;
   background-color: #82b3d3;
+}
+
+.range-wrapper-inputs{
+  margin-bottom: 36px;
 }
 
 .button-submit:focus {
