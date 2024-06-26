@@ -780,13 +780,67 @@ body {
   min-height: 157px;
 }
 
-.control-label{
+.control-label {
   font-family: "PT Sans";
   font-size: 18px;
   font-weight: 400;
   line-height: 23px;
   text-align: left;
+  padding-left: 16px;
 }
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 16px;
+}
+
+.control-mark-square {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 20px;
+  height: 19px;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark-square::after {
+  content: "";
+  width: 12px;
+  height: 10px;
+  background-image: url("../images/check-mark.svg");
+  position: absolute;
+}
+
+.control-mark-circle {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-input[type="radio"]:checked + .control-mark-circle::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #3f5e72;
+  border-radius: 50%;
+  position: absolute;
+  margin: 5px 5px;
+}
+
 
 .button-catalog-filter {
   width: 191px;
