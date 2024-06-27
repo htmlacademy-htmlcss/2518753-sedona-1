@@ -732,28 +732,50 @@ body {
   border: 3px solid #83b3d3;
 }
 
-.modal-title{
-font-family: "PT Sans";
-font-size: 30px;
-font-weight: 700;
-line-height: 36px;
-text-align: left;
+.modal-title {
+  font-family: "PT Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
 }
 
 .modal-container-button {
-font-family: "PT Sans";
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-text-align: center;
-color:#ffffff;
-background-color: #83b3d3;
-width: auto;
-min-height: 60px;
-border-radius: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #83b3d3;
+  width: auto;
+  min-height: 60px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-of-visitors {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-form-title {
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.modal-form-text {
+  font-family: " PT Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+
 }
 
 .filter-background {
