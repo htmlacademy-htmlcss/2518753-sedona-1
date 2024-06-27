@@ -795,14 +795,13 @@ body {
   padding-left: 16px;
 }
 
-.control:active {
+.control:hover {
   opacity: 60%;
 }
 
 .control:active {
-  opacity: 60%;
+  opacity: 30%;
 }
-
 
 .control-mark-square {
   position: absolute;
