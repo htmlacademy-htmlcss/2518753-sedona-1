@@ -793,6 +793,18 @@ body {
   text-align: left;
 }
 
+.tooltip-toggle {
+  width: 26px;
+  height: 26px;
+  background-color: #83b3d3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-right: 46px;
+}
+
 .modal-form-text {
   font-family: " PT Sans";
   font-size: 18px;
@@ -830,8 +842,8 @@ body {
 .quantity-group {
   width: 248px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .filter-background {

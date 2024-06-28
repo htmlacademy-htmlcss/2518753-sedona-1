@@ -184,35 +184,42 @@
     </div>
     <div class="modal-container">
       <div class="modal modal-auth">
-      <button class="modal-close-button">
-        <span class="visually-hidden">Закрыть</span>
-      </button>
-      <section class="modal-content">
-        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-<div class="modal-form-container"></div>
-        <form class="date-form" action="https://echo.htmlacademy.ru/" method="post">
-          <p class="field-group">
-            <label class="modal-form-title" for="arrival-date">Дата Заезда:</label>
-            <input class="modal-form-text" type="date" id="arrival-date" name="arrival-date" placeholder="">
-          </p>
-          <p class="field-group">
-            <label class="modal-form-title" for="date-of-departure">Дата Выезда:</label>
-            <input class="modal-form-text" type="date" id="date-of-departure" name="date-of-departure" placeholder="">
-          </p>
-          <div class="number-of-visitors">
-          <p class="quantity-group">
-            <label class="modal-form-title" for="grown-ups">Взрослые</label>
-            <input class="modal-form-text form-number" type="number" id="grown-ups" name="grown-ups" placeholder="">
-          </p>
-          <p class="quantity-group">
-            <label class="modal-form-title" for="children">Дети</label>
-            <input class="modal-form-text form-number" type="number" id="children" name="children" placeholder="">
-          </p>
-        </div>
-        </form>
-      </section>
-      <a class="modal-container-button" href="#">Найти</a>
-    </div>
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <div class="modal-form-container"></div>
+          <form class="date-form" action="https://echo.htmlacademy.ru/" method="post">
+            <p class="field-group">
+              <label class="modal-form-title" for="arrival-date">Дата Заезда:</label>
+              <input class="modal-form-text" type="date" id="arrival-date" name="arrival-date" placeholder="">
+            </p>
+            <p class="field-group">
+              <label class="modal-form-title" for="date-of-departure">Дата Выезда:</label>
+              <input class="modal-form-text" type="date" id="date-of-departure" name="date-of-departure" placeholder="">
+            </p>
+            <div class="number-of-visitors">
+              <p class="quantity-group">
+                <label class="modal-form-title" for="grown-ups">Взрослые:</label>
+                <input class="modal-form-text form-number" type="number" id="grown-ups" name="grown-ups" placeholder="">
+              </p>
+              <p class="quantity-group">
+                <label class="modal-form-title " for="children">Дети:</label>
+                <span class="tooltip">
+                  <button class="tooltip-toggle" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                      <path fill="#fff" fill-rule="evenodd" d="M9 4h2v2H9V4Zm2 12H9V7h2v9Z" clip-rule="evenodd" />
+                    </svg>
+                  </button>
+                </span>
+                <input class="modal-form-text form-number" type="number" id="children" name="children" placeholder="">
+              </p>
+            </div>
+          </form>
+        </section>
+        <a class="modal-container-button" href="#">Найти</a>
+      </div>
   </body>
 
 </html>
