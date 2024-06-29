@@ -872,7 +872,19 @@ body {
   box-sizing: border-box;
   display: none;
   z-index: 1;
-  left: -151%;
+  left: -173%;
+}
+
+.tooltip-text::after {
+  content: "";
+  width: 19px;
+  height: 9px;
+  background-image: url("../images/Vector-tooltip.svg");
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+
+
 }
 
 .form-label-icon {
