@@ -834,14 +834,19 @@ body {
 }
 
 .tooltip-toggle {
-  width: 26px;
-  height: 26px;
   background-color: #83b3d3;
   border-radius: 50%;
   padding: 0;
   margin: 0;
   margin-right: 46px;
   border: 0;
+  width: 26px;
+  height: 26px;
+}
+
+.tooltip {
+  position: absolute;
+  margin-left: 10px;
 }
 
 .tooltip-icon {
@@ -863,10 +868,11 @@ body {
   padding: 18px;
   border-radius: 10px;
   position: absolute;
-  bottom: 44px;
-  left: 328px;
+  top: 35px;
   box-sizing: border-box;
   display: none;
+  z-index: 1;
+  left: -151%;
 }
 
 .tooltip-toggle:hover + .tooltip-text {
@@ -875,6 +881,11 @@ body {
 
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
+}
+
+.form-label {
+  position: relative;
+  padding-right: 16px;
 }
 
 .filter-background {
