@@ -732,6 +732,14 @@ body {
   border: 3px solid #83b3d3;
 }
 
+.modal-close-button:hover {
+  background-color: #e6e6e6;
+}
+
+.modal-close-button:active {
+  opacity: 30%;
+}
+
 .modal-title {
   font-family: "PT Sans";
   font-size: 30px;
@@ -883,8 +891,6 @@ body {
   position: absolute;
   bottom: 100%;
   left: 50%;
-
-
 }
 
 .form-label-icon {
