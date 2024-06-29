@@ -875,6 +875,11 @@ body {
   left: -151%;
 }
 
+.form-label-icon {
+  position: relative;
+  padding-right: 16px;
+}
+
 .tooltip-toggle:hover + .tooltip-text {
   display: block;
 }
