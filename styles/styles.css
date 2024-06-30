@@ -899,7 +899,7 @@ input::-webkit-inner-spin-button {
 .field-group {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .data-information {
