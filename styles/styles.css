@@ -814,6 +814,25 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
+  position: relative;
+  display: block;
+}
+
+.modal-form-text::after {
+  content: "";
+  width: 20px;
+  height: 48px;
+  background-color: #F2F2F2;
+  background-image: url("../images/calendar.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  opacity: 30%;
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
 }
 
 .modal-form-text:focus {
