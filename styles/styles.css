@@ -852,6 +852,11 @@ input::-webkit-calendar-picker-indicator {
   border: 3px solid rgba(131, 179, 211, 1);
 }
 
+.modal-form-text:not(:placeholder-shown) {
+  border: 2px solid #000000;
+}
+
+
 .form-number {
   width: 110px;
   height: 48px;
@@ -1242,7 +1247,7 @@ input::-webkit-inner-spin-button {
   border: 3px solid #000000;
 }
 
-.range-input:placeholder-shown {
+.range-input:not(:placeholder-shown) {
   outline: none;
   border: 2px solid #000000;
 }
