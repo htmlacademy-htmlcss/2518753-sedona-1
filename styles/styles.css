@@ -839,6 +839,22 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.modal-button:hover {
+  color: #000000;
+}
+
+.modal-button:focus {
+  color: #000000;
+  outline: none;
+  border: 3px solid #82b3d3;
+}
+
+.modal-button:active {
+  border: none;
+  opacity: 20%;
 }
 
 .plus {
@@ -848,8 +864,8 @@ body {
 
 .minus {
   position: absolute;
-  top:1px;
-  left:70px;
+  top: 1px;
+  left: 70px;
 }
 
 
