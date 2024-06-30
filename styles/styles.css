@@ -801,6 +801,10 @@ body {
   text-align: left;
 }
 
+.data-icon{
+  position: relative;
+}
+
 .modal-form-text {
   font-family: " PT Sans";
   font-size: 18px;
@@ -814,16 +818,23 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
-  position: relative;
   display: block;
   margin-bottom: 4px;
 }
 
-.modal-form-text::after {
+.modal-form-text::placeholder{
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color:#000000;
+}
+
+.data-icon::after {
   content: "";
   width: 20px;
   height: 48px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
   position: absolute;
