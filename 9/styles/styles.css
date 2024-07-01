@@ -696,9 +696,11 @@ body {
   position: relative;
   margin: auto;
   padding: 64px 70px;
-  width: 577px;
-  min-height: 448px;
+  width: 717px;
+  min-height: 576px;
   background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 30px;
 }
 
 .modal-close-button {
@@ -713,8 +715,8 @@ body {
   display: block;
   box-sizing: border-box;
   position: absolute;
-  top: 91px;
-  left: 599px;
+  top: 66px;
+  left: 579px;
   cursor: pointer;
 }
 
@@ -737,17 +739,18 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-align: left;
+  margin-top: 0;
   margin-bottom: 64px;
 }
 
 .date-form {
   display: grid;
-  gap: 48px;
-  margin-bottom: 48px;
+  gap:23px;
 }
 
 .date-form p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .modal-container-button {
@@ -819,6 +822,10 @@ body {
   line-height: 24px;
   text-align: left;
   color: #000000;
+}
+
+.modal-content{
+  margin-bottom: 48px;
 }
 
 .data-icon::after {
