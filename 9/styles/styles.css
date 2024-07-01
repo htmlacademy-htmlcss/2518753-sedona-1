@@ -48,7 +48,6 @@ body {
   overflow: hidden;
 }
 
-
 /**Шапка **/
 
 .header-container {
@@ -185,7 +184,6 @@ body {
 .menu-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 .notification-badge {
   background-color: #7db54f;
@@ -330,7 +328,6 @@ body {
   margin: 0;
 }
 
-
 .advantages-item-wide h3::after {
   content: "";
   width: 60px;
@@ -411,8 +408,6 @@ body {
   padding-top: 102px;
 }
 
-/* вставил фоном, но добавил див. */
-
 .services-item-house {
   background-image: url("../images/house.svg");
   background-repeat: no-repeat;
@@ -443,8 +438,6 @@ body {
 .services-item-svg {
   margin-bottom: 30px;
 }
-
-/* как правильнее выравнять текст внутри? сейчас не по макету */
 
 .services-item p {
   font-weight: 400;
@@ -601,8 +594,6 @@ body {
   min-height: 214px;
   margin: 96px 304px;
 }
-
-/**подвал **/
 
 .main-footer {
   color: #000000;
@@ -856,7 +847,6 @@ input::-webkit-calendar-picker-indicator {
   border: 2px solid #000000;
 }
 
-
 .form-number {
   width: 110px;
   height: 48px;
@@ -905,7 +895,6 @@ input::-webkit-calendar-picker-indicator {
   left: 70px;
 }
 
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -924,7 +913,6 @@ input::-webkit-inner-spin-button {
   font-size: 16px;
   line-height: 21px;
   color: #333333;
-
 }
 
 .data-error {
@@ -1121,11 +1109,11 @@ input::-webkit-inner-spin-button {
 }
 
 .control-input:focus + .control-mark-circle {
-  border: 3px solid #83B3D3;
+  border: 3px solid #83b3d3;
 }
 
 .control-input:focus + .control-mark-square {
-  border: 3px solid #83B3D3;
+  border: 3px solid #83b3f3;
 }
 
 .control-mark-square {
@@ -1309,7 +1297,6 @@ input::-webkit-inner-spin-button {
 
 .button-submit:hover {
   background: #68a2ca;
-
 }
 
 .button-submit:active {
@@ -1611,7 +1598,6 @@ input::-webkit-inner-spin-button {
   justify-content: center;
   align-items: center;
 }
-
 
 .product-card .product-card-button-favorites:focus {
   background: #68a2ca;
