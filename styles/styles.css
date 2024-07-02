@@ -856,13 +856,9 @@ input::-webkit-calendar-picker-indicator {
 }
 
 .form-number {
-  width: 110px;
+  width: 31px;
   height: 48px;
   text-align: center;
-}
-
-.modal-input-container {
-  position: relative;
 }
 
 .modal-button {
@@ -892,15 +888,17 @@ input::-webkit-calendar-picker-indicator {
   opacity: 20%;
 }
 
+.modal-input-container{
+  display: flex;
+}
+
 .minus {
-  position: absolute;
-  top: 1px
+  display: inline-block;
 }
 
 .plus {
-  position: absolute;
-  top: 1px;
-  left: 70px;
+  display: inline-block;
+
 }
 
 input::-webkit-outer-spin-button,
