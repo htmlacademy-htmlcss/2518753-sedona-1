@@ -901,7 +901,8 @@ input::-webkit-calendar-picker-indicator {
   border-radius: 4px;
 }
 
-.modal-input-container svg {}
+.modal-input-container svg {
+}
 
 .minus {}
 
