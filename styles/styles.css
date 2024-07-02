@@ -786,6 +786,7 @@ body {
 .number-of-visitors {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 48px;
 }
 
 .modal-form-title {
@@ -887,6 +888,7 @@ input::-webkit-calendar-picker-indicator {
   border: none;
   opacity: 20%;
 }
+
 /* нужно выровнить плюсики и минусики */
 .modal-input-container {
   display: flex;
@@ -894,20 +896,14 @@ input::-webkit-calendar-picker-indicator {
   align-items: center;
   width: 111px;
   min-height: 48px;
-border-radius: 4px;
+  border-radius: 4px;
 }
 
-.modal-input-container svg{
-}
+.modal-input-container svg {}
 
-.minus {
+.minus {}
 
-
-}
-
-.plus {
-
-}
+.plus {}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
