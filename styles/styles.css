@@ -762,13 +762,13 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: #83b3d3;
-  width: auto;
+  width: 577px;
   min-height: 60px;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
+  border: none;
 }
 
 .modal-container-button:hover {
