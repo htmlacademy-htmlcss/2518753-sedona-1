@@ -987,7 +987,8 @@ input::-webkit-inner-spin-button {
   background-image: url("../images/Vector-tooltip.svg");
   position: absolute;
   bottom: 100%;
-  left: 50%;
+  left: 54%;
+  transform: translateX(-54%);
 }
 
 .form-label-icon {
