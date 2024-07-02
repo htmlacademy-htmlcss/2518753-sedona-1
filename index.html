@@ -190,23 +190,23 @@
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="date-form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="field-group">
+            <div class="field-group">
               <label class="modal-form-title" for="arrival-date">Дата Заезда:</label>
               <span class="data-icon">
                 <input class="modal-form-text" type="text" id="arrival-date" name="arrival-date" placeholder="">
                 <span class="data-information data-error">Мы не можем отправить вас в прошлое.</span>
               </span>
-            </p>
-            <p class="field-group">
+            </div>
+            <div class="field-group">
               <label class="modal-form-title" for="date-of-departure">Дата Выезда:</label>
               <span class="data-icon">
                 <input class="modal-form-text" type="text" id="date-of-departure" name="date-of-departure"
                   placeholder="">
                 <span class="data-information">На эти даты есть свободные номера. Пока есть.</span>
               </span>
-            </p>
+            </div>
             <div class="number-of-visitors">
-              <p class="quantity-group">
+              <div class="quantity-group">
                 <label class="modal-form-title" for="grown-ups">Взрослые:</label>
                 <label class="modal-input-container">
                   <button class="modal-button minus" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="14"
@@ -220,8 +220,8 @@
                       <path d="M14 6H8V0H6v6H0v2h6v6h2V8h6V6Z" />
                     </svg></button>
                 </label>
-              </p>
-              <p class="quantity-group">
+              </div>
+              <div class="quantity-group">
                 <span class="form-label form-label-icon">
                   <label class="modal-form-title " for="children">Дети:</label>
                   <span class="tooltip ">
@@ -248,7 +248,7 @@
                     </svg></button>
                 </label>
 
-              </p>
+              </div>
             </div>
             <button type="submit" class="modal-container-button">Найти</button>
           </form>
