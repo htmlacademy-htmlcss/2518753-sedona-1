@@ -742,6 +742,7 @@ body {
   text-align: left;
   margin-top: 0;
   margin-bottom: 64px;
+  text-transform: uppercase;
 }
 
 .date-form {
@@ -769,6 +770,7 @@ body {
   align-items: center;
   justify-content: center;
   border: none;
+  text-transform: uppercase;
 }
 
 .modal-container-button:hover {
