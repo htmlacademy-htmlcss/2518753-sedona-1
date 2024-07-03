@@ -745,11 +745,6 @@ body {
   text-transform: uppercase;
 }
 
-.date-form {
-  display: grid;
-  gap: 23px;
-}
-
 .date-form p {
   margin-top: 0;
   margin-bottom: 0;
@@ -826,14 +821,10 @@ body {
   color: #000000;
 }
 
-.modal-content {
-  margin-bottom: 48px;
-}
-
 .data-icon::after {
   content: "";
-  width: 20px;
-  height: 48px;
+  width: 16px;
+  height: 15px;
   background-color: #f2f2f2;
   background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
@@ -901,8 +892,7 @@ input::-webkit-calendar-picker-indicator {
   border-radius: 4px;
 }
 
-.modal-input-container svg {
-}
+.modal-input-container svg {}
 
 .minus {}
 
@@ -918,6 +908,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-bottom: 23px;
 }
 
 .data-information {
