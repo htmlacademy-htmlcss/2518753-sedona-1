@@ -865,6 +865,7 @@ input::-webkit-calendar-picker-indicator {
   color: rgba(117, 97, 87, 0.3);
   background-color: transparent;
   margin: 14px 10px;
+  position: relative;
 }
 
 .modal-button:hover {
@@ -882,7 +883,7 @@ input::-webkit-calendar-picker-indicator {
   opacity: 20%;
 }
 
-/* нужно выровнить плюсики и минусики */
+/* не получается выравнить плюс и минус */
 .modal-input-container {
   display: flex;
   background-color: #f2f2f2;
@@ -892,11 +893,16 @@ input::-webkit-calendar-picker-indicator {
   border-radius: 4px;
 }
 
-.modal-input-container svg {}
+.minus {
+  position: absolute;
+  left:4px;
+}
 
-.minus {}
-
-.plus {}
+.plus {
+position: absolute;
+left: 3px;
+top:4px;
+}
 
 .modal-input::-webkit-outer-spin-button,
 .modal-input::-webkit-inner-spin-button {
