@@ -731,7 +731,7 @@ body {
 }
 
 .modal-close-button:active {
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 .modal-title {
