@@ -898,8 +898,8 @@ input::-webkit-calendar-picker-indicator {
 
 .plus {}
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.modal-input::-webkit-outer-spin-button,
+.modal-input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -1195,6 +1195,7 @@ input::-webkit-inner-spin-button {
   top: 10px;
   left: 105px;
 }
+
 /* opacity не работает, закрашивается вся полоска */
 
 .range-scale {
