@@ -840,7 +840,7 @@ body {
 
 .modal-form-text:focus {
   outline: none;
-  border: 3px solid rgba(131, 179, 211, 1);
+  border: 3px soli #83b3d3;
 }
 
 .modal-form-text:not(:placeholder-shown) {
@@ -899,13 +899,13 @@ body {
 
 .minus {
   position: absolute;
-  left:4px;
+  left: 4px;
 }
 
 .plus {
-position: absolute;
-left: 3px;
-top:4px;
+  position: absolute;
+  left: 3px;
+  top: 4px;
 }
 
 .modal-input::-webkit-outer-spin-button,
