@@ -690,7 +690,6 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
-  /* display: none; */
 }
 
 .modal {
@@ -908,8 +907,8 @@ body {
   top: 4px;
 }
 
-.modal-input::-webkit-outer-spin-button,
-.modal-input::-webkit-inner-spin-button {
+.form-number::-webkit-outer-spin-button,
+.form-number::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -1116,11 +1115,11 @@ body {
 }
 
 .control:hover {
-  opacity: 60%;
+  opacity: 0.6;
 }
 
 .control:active {
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 .control-input:focus + .control-mark-circle {
@@ -1342,7 +1341,7 @@ body {
 }
 
 .button-reset:disabled {
-  opacity: 10%;
+  opacity: 0.1;
 }
 
 .catalog-filter-group {
@@ -1381,7 +1380,7 @@ body {
 }
 
 .select-control {
-  border: 2px solid rgba(229, 229, 229, 1);
+  border: 2px solid #e5e5e5;
 }
 
 .select-control:hover {
