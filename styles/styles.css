@@ -986,7 +986,7 @@ body {
   content: "";
   width: 19px;
   height: 9px;
-  background-image: url("../images/Vector-tooltip.svg");
+  background-image: url("../images/vector-tooltip.svg");
   position: absolute;
   bottom: 100%;
   left: 54%;
