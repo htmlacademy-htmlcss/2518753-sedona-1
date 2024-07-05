@@ -834,7 +834,7 @@ body {
   opacity: 30%;
 }
 
-input::-webkit-calendar-picker-indicator {
+.modal-form-text::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
 
@@ -855,6 +855,10 @@ input::-webkit-calendar-picker-indicator {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.form-number[type='number'] {
+  -moz-appearance: textfield;
 }
 
 .modal-button {
