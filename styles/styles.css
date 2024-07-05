@@ -831,7 +831,7 @@ body {
   position: absolute;
   top: 16px;
   right: 22px;
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 .modal-form-text::-webkit-calendar-picker-indicator {
