@@ -48,7 +48,6 @@ body {
   overflow: hidden;
 }
 
-
 /**Шапка **/
 
 .header-container {
@@ -185,7 +184,6 @@ body {
 .menu-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 .notification-badge {
   background-color: #7db54f;
@@ -330,7 +328,6 @@ body {
   margin: 0;
 }
 
-
 .advantages-item-wide h3::after {
   content: "";
   width: 60px;
@@ -411,8 +408,6 @@ body {
   padding-top: 102px;
 }
 
-/* вставил фоном, но добавил див. */
-
 .services-item-house {
   background-image: url("../images/house.svg");
   background-repeat: no-repeat;
@@ -443,8 +438,6 @@ body {
 .services-item-svg {
   margin-bottom: 30px;
 }
-
-/* как правильнее выравнять текст внутри? сейчас не по макету */
 
 .services-item p {
   font-weight: 400;
@@ -574,7 +567,7 @@ body {
   height: 52px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -601,8 +594,6 @@ body {
   min-height: 214px;
   margin: 96px 304px;
 }
-
-/**подвал **/
 
 .main-footer {
   color: #000000;
@@ -691,6 +682,351 @@ body {
   color: #000000;
 }
 
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 64px 70px;
+  width: 717px;
+  min-height: 576px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.modal-close-button {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  border: 0;
+  background-image: url("../images/cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  top: 66px;
+  left: 579px;
+  cursor: pointer;
+}
+
+.modal-close-button:focus {
+  outline: none;
+  border: 3px solid #83b3d3;
+}
+
+.modal-close-button:hover {
+  background-color: #e6e6e6;
+}
+
+.modal-close-button:active {
+  opacity: 0.3;
+}
+
+.modal-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 64px;
+  text-transform: uppercase;
+}
+
+.date-form p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.modal-container-button {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #83b3d3;
+  width: 577px;
+  min-height: 60px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  text-transform: uppercase;
+}
+
+.modal-container-button:hover {
+  background-color: #68a2ca;
+}
+
+.modal-container-button:focus {
+  background-color: #68a2ca;
+}
+
+.modal-container-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.number-of-visitors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.modal-form-title {
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.data-icon {
+  position: relative;
+}
+
+.modal-form-text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 440px;
+  height: 48px;
+  background-color: #f2f2f2;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 4px;
+  text-align: start;
+  padding-left: 20px;
+}
+
+.modal-form-text::placeholder {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.data-icon::after {
+  content: "";
+  width: 16px;
+  height: 15px;
+  background-color: #f2f2f2;
+  background-image: url("../images/calendar.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  opacity: 0.3;
+}
+
+.modal-form-text::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.modal-form-text:focus {
+  outline: none;
+  border: 3px solid #83b3d3;
+}
+
+.modal-form-text:not(:placeholder-shown) {
+  border: 2px solid #000000;
+}
+
+.form-number {
+  width: 31px;
+  height: 48px;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: #f2f2f2;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.form-number:focus {
+  outline: none;
+  border: 3px solid #83b3d3;
+}
+
+.form-number:not(:placeholder-shown) {
+  border: 2px solid #000000;
+}
+
+
+.form-number[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.modal-button {
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  color: rgba(117, 97, 87, 0.3);
+  background-color: transparent;
+  margin: 14px 10px;
+  position: relative;
+}
+
+.modal-button:hover {
+  color: #000000;
+}
+
+.modal-button:focus {
+  color: #000000;
+  outline: none;
+  border: 3px solid #82b3d3;
+}
+
+.modal-button:active {
+  border: none;
+  opacity: 20%;
+}
+
+/* не получается выравнить плюс и минус */
+.modal-input-container {
+  display: flex;
+  background-color: #f2f2f2;
+  align-items: center;
+  width: 111px;
+  min-height: 48px;
+  border-radius: 4px;
+}
+
+.minus {
+  position: absolute;
+  left: 4px;
+}
+
+.plus {
+  position: absolute;
+  left: 3px;
+  top: 4px;
+}
+
+.form-number::-webkit-outer-spin-button,
+.form-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.field-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 23px;
+}
+
+.data-information {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.data-error {
+  color: #ff5757;
+}
+
+.quantity-group {
+  width: 248px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tooltip-toggle {
+  background-color: #83b3d3;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  margin-right: 46px;
+  border: 0;
+  width: 26px;
+  height: 26px;
+}
+
+.tooltip {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.tooltip-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tooltip-text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  width: 256px;
+  min-height: 143px;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 18px;
+  border-radius: 10px;
+  position: absolute;
+  top: 35px;
+  box-sizing: border-box;
+  display: none;
+  z-index: 1;
+  left: -173%;
+}
+
+.tooltip-text::after {
+  content: "";
+  width: 19px;
+  height: 9px;
+  background-image: url("../images/vector-tooltip.svg");
+  position: absolute;
+  bottom: 100%;
+  left: 54%;
+  transform: translateX(-54%);
+}
+
+.form-label-icon {
+  position: relative;
+  padding-right: 16px;
+}
+
+.tooltip-toggle:hover + .tooltip-text {
+  display: block;
+}
+
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.form-label {
+  position: relative;
+  padding-right: 16px;
+}
+
 .filter-background {
   background-image: url("../images/subscribe-2.jpg");
   background-repeat: no-repeat;
@@ -772,6 +1108,89 @@ body {
   margin: 0;
   display: grid;
   gap: 16px;
+  width: 150px;
+}
+
+.catalog-filter-group {
+  width: 150px;
+  min-height: 157px;
+}
+
+.control-label {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 16px;
+}
+
+.control:hover {
+  opacity: 0.6;
+}
+
+.control:active {
+  opacity: 0.3;
+}
+
+.control-input:focus + .control-mark-circle {
+  border: 3px solid #83b3d3;
+}
+
+.control-input:focus + .control-mark-square {
+  border: 3px solid #83b3f3;
+}
+
+.control-mark-square {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 19px;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark-square::after {
+  content: "";
+  width: 12px;
+  height: 10px;
+  background-image: url("../images/check-mark.svg");
+  position: absolute;
+}
+
+.control-mark-circle {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-input[type="radio"]:checked + .control-mark-circle::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #3f5e72;
+  border-radius: 50%;
+  position: absolute;
+  margin: 5px 5px;
 }
 
 .button-catalog-filter {
@@ -788,9 +1207,120 @@ body {
   text-transform: uppercase;
 }
 
+.range-form-field-text {
+  position: relative;
+}
+
+.range-form-field-text span {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #a8a4a4;
+  position: absolute;
+  top: 10px;
+  left: 105px;
+}
+
+/* opacity не работает, закрашивается вся полоска */
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: #a8a4a4;
+  border-radius: 2px;
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.range-input {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  width: 143px;
+  height: 48px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 37px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.range-input:focus {
+  outline: none;
+  border: 3px solid #83b3d3;
+}
+
+.range-input:hover {
+  border: 3px solid #000000;
+}
+
+.range-input:not(:placeholder-shown) {
+  outline: none;
+  border: 2px solid #000000;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.range-input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.range-min {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.range-max {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.range-toggle {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  position: absolute;
+  border: none;
+}
+
+.range-toggle:active {
+  border: 2px solid #83b3d3;
+}
+
+.range-toggle:focus {
+  outline: none;
+  border: 2px solid #83b3d3;
+}
+
+.toggle-min {
+  top: -8px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: 0;
+}
+
 .button-submit {
   color: #ffffff;
   background-color: #82b3d3;
+}
+
+.range-wrapper-inputs {
+  margin-bottom: 36px;
+  display: flex;
 }
 
 .button-submit:focus {
@@ -799,7 +1329,6 @@ body {
 
 .button-submit:hover {
   background: #68a2ca;
-
 }
 
 .button-submit:active {
@@ -829,11 +1358,13 @@ body {
 }
 
 .button-reset:disabled {
-  opacity: 10%;
+  opacity: 0.1;
 }
 
 .catalog-filter-group {
   padding: 0;
+  outline: none;
+  border: 0;
 }
 
 .select-container {
@@ -866,7 +1397,7 @@ body {
 }
 
 .select-control {
-  border: 2px solid rgba(229, 229, 229, 1);
+  border: 2px solid #e5e5e5;
 }
 
 .select-control:hover {
@@ -891,10 +1422,33 @@ body {
   align-items: center;
 }
 
-.filter-background .catalog-filter-title {
+.catalog-filter-title {
+  margin-bottom: 32px;
+}
+
+.filter-infrastructure {
+  margin-right: 70px;
+}
+
+.filter-type-house {
+  margin-right: 140px;
+}
+
+.catalog-filter-range {
+  padding: 0;
+  outline: none;
+  border: 0;
+  margin-right: 70px;
+  width: 288px;
+  min-height: 160px;
+}
+
+.filter-background {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  font-family: "PT Sans", sans-serif;
+  text-align: left;
 }
 
 .filter-background .catalog-filter-item {
@@ -1076,7 +1630,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 .product-card .product-card-button-favorites:focus {
   background: #68a2ca;
