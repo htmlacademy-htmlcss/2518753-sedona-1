@@ -900,7 +900,7 @@ body {
 
 .modal-button:active {
   border: none;
-  opacity: 20%;
+  opacity: 0,2;
 }
 
 /* не получается выравнить плюс и минус */
