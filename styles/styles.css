@@ -1215,8 +1215,9 @@ body {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   line-height: 24px;
-  color: #a8a4a4;
   position: absolute;
+  color: #000000;
+  opacity: 0.3;
   top: 10px;
   left: 105px;
 }
