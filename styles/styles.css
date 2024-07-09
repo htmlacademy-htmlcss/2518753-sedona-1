@@ -893,17 +893,31 @@ body {
 }
 
 .modal-button:focus {
+  position: relative;
   color: #000000;
   outline: none;
   border: 3px solid #82b3d3;
+  left: 1px;
+  top: 1px;
+}
+
+.modal-button:focus .plus {
+  position: relative;
+  top: 0;
+  left: -5px;
+}
+
+.modal-button:focus .minus {
+  position: relative;
+  top: -4px;
+  left: -5px;
 }
 
 .modal-button:active {
   border: none;
-  opacity: 0,2;
+  opacity: 0, 2;
 }
 
-/* не получается выравнить плюс и минус */
 .modal-input-container {
   display: flex;
   background-color: #f2f2f2;
@@ -1222,7 +1236,7 @@ body {
   left: 105px;
 }
 
- .range-bar {
+.range-bar {
   position: absolute;
   height: 4px;
   background-color: #ffffff;
