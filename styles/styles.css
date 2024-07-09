@@ -879,13 +879,16 @@ body {
 
 .modal-button {
   border: none;
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
   border-radius: 4px;
   color: rgba(117, 97, 87, 0.3);
   background-color: transparent;
   margin: 14px 10px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-button:hover {
@@ -897,20 +900,10 @@ body {
   color: #000000;
   outline: none;
   border: 3px solid #82b3d3;
-  left: 1px;
-  top: 1px;
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-.modal-button:focus .plus {
-  position: relative;
-  top: 0;
-  left: -5px;
-}
-
-.modal-button:focus .minus {
-  position: relative;
-  top: -4px;
-  left: -5px;
 }
 
 .modal-button:active {
@@ -929,13 +922,10 @@ body {
 
 .minus {
   position: absolute;
-  left: 4px;
 }
 
 .plus {
   position: absolute;
-  left: 3px;
-  top: 4px;
 }
 
 .form-number::-webkit-outer-spin-button,
