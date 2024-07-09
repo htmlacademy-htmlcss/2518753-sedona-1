@@ -898,11 +898,7 @@ body {
 .modal-button:focus {
   position: relative;
   color: #000000;
-  outline: none;
-  border: 3px solid #82b3d3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  outline: 3px solid #82b3d3;
 }
 
 .modal-button:active {
@@ -917,14 +913,6 @@ body {
   width: 111px;
   min-height: 48px;
   border-radius: 4px;
-}
-
-.minus {
-  position: absolute;
-}
-
-.plus {
-  position: absolute;
 }
 
 .form-number::-webkit-outer-spin-button,
