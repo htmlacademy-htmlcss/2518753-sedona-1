@@ -500,6 +500,7 @@ body {
   align-items: center;
   margin: 0 auto;
   border-radius: 4px;
+  margin-bottom: 2px;
 }
 
 .search-hotel-button:focus {
