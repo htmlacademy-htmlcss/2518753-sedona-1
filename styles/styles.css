@@ -1190,7 +1190,7 @@ body {
 
 .button-catalog-filter {
   width: 191px;
-  height: 36px;
+  min-height: 36px;
   border-radius: 4px;
   padding: 0;
   border: none;
@@ -1408,7 +1408,6 @@ body {
 }
 
 .page-search {
-  margin-right: 200px;
   width: 338px;
   margin: 0;
   display: flex;
