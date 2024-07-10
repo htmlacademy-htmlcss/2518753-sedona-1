@@ -1202,7 +1202,7 @@ body {
 
 .button-catalog-filter {
   width: 191px;
-  min-height: 36px;
+  height: 36px;
   border-radius: 4px;
   padding: 0;
   border: none;
@@ -1503,6 +1503,9 @@ body {
 
 
 .button-container-filter {
+  width: 191px;
+  min-height: 104px;
+  margin-top: 56px;
   display: grid;
   gap: 32px;
 }
