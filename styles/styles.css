@@ -786,7 +786,7 @@ body {
 }
 
 .modal-form-title {
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -1074,6 +1074,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 10px;
+  left: 13px;
+  top: 1px;
 }
 
 .breadcrumbs-item a {
