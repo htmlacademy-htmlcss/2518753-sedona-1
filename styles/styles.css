@@ -1706,6 +1706,7 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: #ffffff;
+  text-align: center;
   background-color: #82b3d3;
   display: flex;
   min-width: 60px;
