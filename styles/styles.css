@@ -1048,8 +1048,9 @@ body {
 }
 
 .catalog-filter {
-  width: 1060px;
+ min-width: 1060px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .main-inner h1 {
@@ -1441,7 +1442,7 @@ body {
   padding: 0;
   outline: none;
   border: 0;
-  margin-right: 70px;
+  margin-right: 65px;
   width: 288px;
   min-height: 160px;
 }
