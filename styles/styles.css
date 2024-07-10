@@ -1067,7 +1067,6 @@ body {
   padding: 0;
   margin: 0;
   margin-bottom: 40px;
-  position: relative;
   flex-wrap: wrap;
 }
 
@@ -1078,6 +1077,7 @@ body {
   color: #ffffff;
   font-weight: 400;
   margin-right: 28px;
+  position: relative;
 }
 
 .breadcrumbs-item:not(:last-child)::after {
@@ -1089,8 +1089,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 10px;
-  left: 13px;
-  top: 1px;
 }
 
 .breadcrumbs-item a {
