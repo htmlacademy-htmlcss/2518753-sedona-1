@@ -123,7 +123,7 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap:2px;
+  gap: 2px;
   /* разлепить кнопки gap */
 }
 
@@ -136,9 +136,7 @@ body {
   color: #000000;
 }
 
-.menu-item{
-
-}
+.menu-item {}
 
 .menu-link:focus {
   color: #756157;
@@ -613,8 +611,10 @@ body {
   padding-right: 70px;
   padding-left: 70px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 41.5px;
 }
 
 .social-item a {
@@ -643,7 +643,8 @@ body {
 
 .social-list {
   list-style: none;
-  width: 142px;
+  min-width: 142px;
+  min-height: 40px;
   display: flex;
   margin: 0;
   padding: 0;
@@ -657,7 +658,8 @@ body {
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  width: 331px;
+  min-width: 720px;
+  min-height: 40px;
 }
 
 .contacts-phone:hover {
@@ -690,6 +692,8 @@ body {
 
 .logo-academy {
   color: #000000;
+  min-width: 115px;
+  min-height: 40px;
 }
 
 .modal-container {
