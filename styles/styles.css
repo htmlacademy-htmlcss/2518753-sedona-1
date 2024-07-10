@@ -1048,7 +1048,7 @@ body {
 }
 
 .catalog-filter {
- min-width: 1060px;
+  min-width: 1060px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1707,8 +1707,10 @@ body {
 }
 
 .pagination {
+  width: 1060px;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   padding: 0 70px;
   gap: 8px;
   margin: 0;
