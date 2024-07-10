@@ -1061,13 +1061,14 @@ body {
 }
 
 .breadcrumbs-list {
-  min-width: 114px;
+  width: 1200px;
   display: flex;
   justify-content: start;
   padding: 0;
   margin: 0;
   margin-bottom: 40px;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .breadcrumbs-item {
