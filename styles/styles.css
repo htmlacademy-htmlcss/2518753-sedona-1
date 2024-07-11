@@ -405,6 +405,7 @@ body {
 .services-item {
   width: 400px;
   min-height: 385px;
+  box-sizing: border-box;
 }
 
 .services-item h3 {
@@ -422,28 +423,28 @@ body {
 .services-item-house {
   background-image: url("../images/house.svg");
   background-repeat: no-repeat;
-  background-position: 50% 3px;
+  background-position: 50% 0;
   width: 230px;
   min-height: 223px;
-  margin: 85px 81px;
+  margin: 80px 85px;
 }
 
 .services-item-food {
   background-image: url("../images/icon-food.svg");
   background-repeat: no-repeat;
-  background-position: 50% 4px;
+  background-position: 50% 0;
   width: 230px;
   min-height: 223px;
-  margin: 85px 81px;
+  margin: 80px 85px;
 }
 
 .services-item-souvenirs {
   background-image: url("../images/present.svg");
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 50% -2px;
   width: 230px;
   min-height: 223px;
-  margin: 85px 81px;
+  margin: 80px 85px;
 }
 
 .services-item-svg {
