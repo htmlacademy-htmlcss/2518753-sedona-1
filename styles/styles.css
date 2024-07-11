@@ -605,23 +605,25 @@ body {
 
 .main-footer {
   color: #000000;
-  min-height: 120px;
+  min-height: 50px;
   margin: 0 auto;
   width: 1060px;
   padding-right: 70px;
   padding-left: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 41.5px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns:142px 720px 115px ;
+  align-items: baseline;
+  column-gap: 41.5px;
+  grid-template-rows:50px;
 }
 
 .social-item a {
   text-decoration: none;
   width: 47px;
   height: 40px;
-  display: block;
+  display: inline-block;
   color: #83b3d3;
 }
 
@@ -649,6 +651,8 @@ body {
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .contacts-phone {
@@ -658,8 +662,10 @@ body {
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  min-width: 720px;
+  width: 720px;
   min-height: 40px;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .contacts-phone:hover {
@@ -694,6 +700,8 @@ body {
   color: #000000;
   min-width: 115px;
   min-height: 40px;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .modal-container {
