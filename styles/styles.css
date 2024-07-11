@@ -188,13 +188,18 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.heart{
+  position: relative;
+  left: 8px;
+}
+
 .notification-badge {
   background-color: #7db54f;
   border-radius: 10px;
   min-width: 20px;
   min-height: 20px;
   position: relative;
-  right: 11px;
+  right:5px;
   top: -10px;
   color: #ffffff;
   text-align: center;
