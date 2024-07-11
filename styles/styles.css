@@ -1069,6 +1069,7 @@ body {
   margin: 0;
   margin-bottom: 40px;
   flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .breadcrumbs-item {
@@ -1077,8 +1078,13 @@ body {
   line-height: 21px;
   color: #ffffff;
   font-weight: 400;
-  margin-right: 28px;
-  position: relative;
+  margin-right: 10px;
+}
+
+.breadcrumbs-item a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
 .breadcrumbs-item:not(:last-child)::after {
@@ -1086,15 +1092,9 @@ body {
   background-image: url("../images/arrow-catalog.svg");
   width: 8px;
   height: 20px;
-  position: absolute;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 10px;
-}
-
-.breadcrumbs-item a {
-  color: #ffffff;
-  text-decoration: none;
+  background-position: bottom;
+  display: inline-block;
 }
 
 .breadcrumbs-link:hover {
