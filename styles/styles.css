@@ -313,7 +313,7 @@ body {
   padding-right: 27.5px;
   padding-left: 27.5px;
   word-break: break-word;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .advantages-list h3::after {
