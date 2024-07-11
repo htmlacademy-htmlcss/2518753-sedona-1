@@ -621,7 +621,7 @@ body {
   padding-bottom: 30px;
   display: grid;
   grid-template-columns:142px 720px 115px ;
-  align-items: baseline;
+  align-items: center;
   column-gap: 41.5px;
   grid-template-rows:50px;
 }
@@ -632,10 +632,13 @@ body {
   height: 40px;
   display: inline-block;
   color: #83b3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-item svg {
-  padding: 13px 12px;
+
 }
 
 .social-item a:hover {
