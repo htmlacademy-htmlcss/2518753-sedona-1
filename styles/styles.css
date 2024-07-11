@@ -295,7 +295,7 @@ body {
 }
 
 .advantages-item-text {
-  padding: 98px 85px;
+  padding: 102px 85px;
 }
 
 .advantages-item-img {
@@ -313,6 +313,7 @@ body {
   padding-right: 27.5px;
   padding-left: 27.5px;
   word-break: break-word;
+  margin-top: 0;
 }
 
 .advantages-list h3::after {
