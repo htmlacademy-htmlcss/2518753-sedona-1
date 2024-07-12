@@ -1354,7 +1354,7 @@ body {
 }
 
 .range-wrapper-inputs {
-  margin-bottom: 36px;
+  margin-bottom: 44px;
   display: flex;
   gap: 2px;
 }
@@ -1475,7 +1475,7 @@ body {
   padding: 0;
   outline: none;
   border: 0;
-  margin-right: 65px;
+  margin-right: 71px;
   width: 288px;
   min-height: 160px;
   margin-left: 0;
