@@ -1501,6 +1501,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
+  gap: 8px;
 }
 
 .button-filter-container {
@@ -1552,7 +1553,7 @@ body {
   grid-template-columns: repeat(3, 340px);
   gap: 20px;
   margin: 0;
-  margin-bottom: 80px;
+  margin-bottom: 78px;
   position: relative;
 }
 
@@ -1569,7 +1570,6 @@ body {
 
 .product-card-title {
   margin: 0;
-  margin-bottom: 16px;
 }
 
 .product-card p {
@@ -1577,7 +1577,7 @@ body {
 }
 
 .product-card img {
-  margin-bottom: 16px;
+  margin-bottom: 15px;
   display: block;
 }
 
@@ -1626,6 +1626,7 @@ body {
 
 .product-card-link {
   grid-column: 1/ -1;
+
 }
 
 .product-card .product-card-button {
@@ -1729,15 +1730,15 @@ body {
 }
 
 .product-card .stars-four {
-  width: 80px;
+  width: 89px;
 }
 
 .product-card .stars-three {
-  width: 60px;
+  width: 67px;
 }
 
 .product-card .stars-two {
-  width: 40px;
+  width: 43px;
 }
 
 .pagination {
