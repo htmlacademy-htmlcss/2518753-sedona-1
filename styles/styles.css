@@ -74,6 +74,11 @@ body {
   flex-wrap: wrap;
 }
 
+.site-navigation-item {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 .navigation-link {
   font-size: 20px;
   line-height: 24px;
@@ -82,12 +87,12 @@ body {
   font-weight: 700;
   text-align: center;
   list-style-type: none;
-  min-height: 24px;
+  min-height: 64px;
   display: flex;
   align-items: center;
   box-sizing: content-box;
-  padding: 20px 16px;
-  position: relative;
+  padding: 0;
+   position: relative;
 }
 
 .navigation-link:focus {
@@ -102,15 +107,18 @@ body {
   color: rgba(117, 97, 87, 0.3);
 }
 
+.active-link {
+  position: relative;
+  box-sizing: border-box;
+}
 
 .active-link::before {
   content: "";
   height: 2px;
   background-color: #756257;
-  margin: 20px auto;
-  width: 70%;
+  width: 100%;
   position: absolute;
-  bottom: -20px;
+  bottom: 0;
 }
 
 .menu {
@@ -591,7 +599,7 @@ body {
   color: #ffffff;
   background-color: #82b3d3;
   border: none;
-  padding-top:2px;
+  padding-top: 2px;
   text-transform: uppercase;
 }
 
