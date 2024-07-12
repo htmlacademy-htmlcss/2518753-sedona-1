@@ -188,7 +188,7 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.heart{
+.heart {
   position: relative;
   left: 8px;
 }
@@ -199,7 +199,7 @@ body {
   min-width: 20px;
   min-height: 20px;
   position: relative;
-  right:5px;
+  right: 5px;
   top: -10px;
   color: #ffffff;
   text-align: center;
@@ -620,10 +620,10 @@ body {
   padding-top: 40px;
   padding-bottom: 30px;
   display: grid;
-  grid-template-columns:142px 720px 115px ;
+  grid-template-columns: 142px 720px 115px;
   align-items: center;
   column-gap: 41.5px;
-  grid-template-rows:50px;
+  grid-template-rows: 50px;
 }
 
 .social-item a {
@@ -637,9 +637,7 @@ body {
   align-items: center;
 }
 
-.social-item svg {
-
-}
+.social-item svg {}
 
 .social-item a:hover {
   color: #68a2ca;
@@ -1157,7 +1155,7 @@ body {
 .control {
   position: relative;
   display: block;
-  padding-left: 16px;
+  padding-left: 20px;
 }
 
 .control:hover {
@@ -1201,10 +1199,10 @@ body {
 
 .control-mark-circle {
   position: absolute;
-  top: 2px;
+  top: 0px;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   border: 2px solid;
   border-radius: 50%;
   background-color: #ffffff;
@@ -1248,8 +1246,16 @@ body {
   position: absolute;
   color: #000000;
   opacity: 0.3;
-  top: 10px;
-  left: 105px;
+}
+
+.range-min-span {
+  top: 13px;
+  left: 107px
+}
+
+.range-max-span {
+  top: 13px;
+  left: 104px;
 }
 
 .range-bar {
@@ -1350,7 +1356,7 @@ body {
 .range-wrapper-inputs {
   margin-bottom: 36px;
   display: flex;
-  gap:2px;
+  gap: 2px;
 }
 
 .button-submit:focus {
@@ -1452,14 +1458,17 @@ body {
 
 .catalog-filter-title {
   margin-bottom: 32px;
+  padding: 0;
 }
 
 .filter-infrastructure {
   margin-right: 70px;
+  margin-left: 0;
 }
 
 .filter-type-house {
   margin-right: 140px;
+  margin-left: 0;
 }
 
 .catalog-filter-range {
@@ -1469,6 +1478,7 @@ body {
   margin-right: 65px;
   width: 288px;
   min-height: 160px;
+  margin-left: 0;
 }
 
 .filter-background {
