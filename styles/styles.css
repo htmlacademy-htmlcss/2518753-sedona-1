@@ -1063,7 +1063,7 @@ body {
 
 .filter-background-container {
   width: 1060px;
-  padding: 70px 70px;
+  padding: 66px 70px;
   padding-top: 35px;
 }
 
@@ -1083,6 +1083,7 @@ body {
 
 .breadcrumbs-list {
   width: 1060px;
+  min-height: 21px;
   display: flex;
   justify-content: start;
   padding: 0;
@@ -1104,14 +1105,15 @@ body {
 .breadcrumbs-item a {
   color: #ffffff;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 8px;
 }
+
 
 .breadcrumbs-item:not(:last-child)::after {
   content: "";
   background-image: url("../images/arrow-catalog.svg");
   width: 8px;
-  height: 20px;
+  height: 11px;
   background-repeat: no-repeat;
   background-position: bottom;
   display: inline-block;
@@ -1176,7 +1178,7 @@ body {
 
 .control-mark-square {
   position: absolute;
-  top: 2px;
+  top: 0;
   left: 0;
   width: 20px;
   height: 19px;
@@ -1186,6 +1188,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark-square::after {
@@ -1347,6 +1350,7 @@ body {
 .range-wrapper-inputs {
   margin-bottom: 36px;
   display: flex;
+  gap:2px;
 }
 
 .button-submit:focus {
