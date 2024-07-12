@@ -574,6 +574,7 @@ body {
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 5px;
   margin: 0;
 }
 
@@ -590,6 +591,8 @@ body {
   color: #ffffff;
   background-color: #82b3d3;
   border: none;
+  padding-top:2px;
+  text-transform: uppercase;
 }
 
 .button-subscription-button:focus {
@@ -1813,6 +1816,8 @@ body {
   line-height: 36px;
   color: #000000;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .subscription-catalog p {
