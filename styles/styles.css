@@ -92,7 +92,7 @@ body {
   align-items: center;
   box-sizing: content-box;
   padding: 0;
-   position: relative;
+  position: relative;
 }
 
 .navigation-link:focus {
@@ -614,6 +614,10 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.button-subscription-button:disabled {
+  background: #e5e5e5;
+}
+
 .search-hotel {
   width: 592px;
   min-height: 214px;
@@ -646,8 +650,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.social-item svg {}
 
 .social-item a:hover {
   color: #68a2ca;
@@ -1210,7 +1212,7 @@ body {
 
 .control-mark-circle {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   width: 18px;
   height: 18px;
@@ -1308,7 +1310,7 @@ body {
   border: 3px solid #000000;
 }
 
-.range-input::placeholder{
+.range-input::placeholder {
   color: #000000;
 }
 
@@ -1521,7 +1523,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
-  gap: 8px;
+  gap: 7px;
 }
 
 .button-filter-container {
