@@ -131,7 +131,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 2px;
-  /* разлепить кнопки gap */
 }
 
 .menu-link {
