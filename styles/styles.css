@@ -980,6 +980,8 @@ body {
   font-weight: 700;
   line-height: 24px;
   text-align: left;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .data-icon {
@@ -1185,7 +1187,6 @@ body {
   justify-content: space-between;
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
-  align-items: baseline;
   margin-bottom: 24px;
 }
 
