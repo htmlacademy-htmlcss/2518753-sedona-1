@@ -1202,7 +1202,7 @@ body {
 }
 
 .quantity-group {
-  width: 242px;
+  width: 247px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1227,7 +1227,7 @@ body {
 
 .tooltip {
   position: absolute;
-  margin-left: 10px;
+  margin-left: 11px;
 }
 
 .tooltip-icon {
@@ -1273,11 +1273,6 @@ body {
   transform: translateX(-51%);
 }
 
-.form-label-icon {
-  position: relative;
-  padding-right: 16px;
-}
-
 .tooltip-toggle:hover + .tooltip-text {
   display: block;
 }
@@ -1289,6 +1284,13 @@ body {
 .form-label {
   position: relative;
   padding-right: 16px;
+  width: 49px;
+}
+
+.form-label-icon {
+  position: relative;
+  padding-right: 16px;
+  margin-left: 4px;
 }
 
 .filter-background {
