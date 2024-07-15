@@ -1151,13 +1151,11 @@ body {
   opacity: 0, 2;
 }
 
-.modal-button svg{
+.modal-button svg {
   position: absolute;
 }
 
-.minus{
-
-}
+.minus {}
 
 .modal-input-container {
   display: -webkit-box;
@@ -1248,15 +1246,18 @@ body {
   min-height: 143px;
   background-color: #333333;
   color: #ffffff;
-  padding: 18px;
+  padding-top: 19px;
+  padding-left: 22px;
+  padding-right: 18px;
+  padding-bottom: 18px;
   border-radius: 10px;
   position: absolute;
-  top: 35px;
+  top: 41px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: none;
   z-index: 1;
-  left: -173%;
+  left: -116px;
 }
 
 .tooltip-text::after {
@@ -1266,10 +1267,10 @@ body {
   background-image: url("../images/vector.svg");
   position: absolute;
   bottom: 100%;
-  left: 54%;
-  -webkit-transform: translateX(-54%);
-  -ms-transform: translateX(-54%);
-  transform: translateX(-54%);
+  left: 51%;
+  -webkit-transform: translateX(-51%);
+  -ms-transform: translateX(-51%);
+  transform: translateX(-51%);
 }
 
 .form-label-icon {
