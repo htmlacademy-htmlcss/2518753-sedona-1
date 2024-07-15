@@ -866,7 +866,6 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
-  display: none;
 }
 
 .modal {
@@ -894,8 +893,8 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: absolute;
-  top: 66px;
-  left: 579px;
+  top: 63px;
+  left: 612px;
   cursor: pointer;
 }
 
@@ -999,7 +998,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   text-align: start;
   padding-left: 20px;
 }
@@ -1180,7 +1179,7 @@ body {
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
-  margin-bottom: 23px;
+  margin-bottom: 24px;
 }
 
 .data-information {
