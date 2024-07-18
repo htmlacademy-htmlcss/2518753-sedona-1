@@ -1120,7 +1120,7 @@ body {
 }
 
 
-.form-number[type='number'] {
+.form-number[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -1430,6 +1430,7 @@ body {
 .control-input:focus + .control-mark-circle {
   border: 3px solid #83b3d3;
 }
+
 .control-input:disabled + .control-mark-circle {
   opacity: 0.1;
 }
@@ -1440,7 +1441,7 @@ body {
 }
 
 .control-input:disabled + .control-mark-square {
- opacity: 0.1;
+  opacity: 0.1;
 }
 
 .control-mark-square {
@@ -1622,7 +1623,7 @@ body {
   margin: 0;
 }
 
-.range-input[type='number'] {
+.range-input[type="number"] {
   -moz-appearance: textfield;
 }
 
