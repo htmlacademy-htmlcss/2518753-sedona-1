@@ -1941,6 +1941,7 @@ body {
   color: #000000;
   text-decoration: none;
   display: block;
+  min-height: 256px;
 }
 
 .product-card-price {
@@ -1982,13 +1983,12 @@ body {
   display: grid;
   -ms-grid-columns: 140px 20px 140px;
   grid-template-columns: 140px 140px;
+  grid-template-rows: auto 21px 36px 37px;
   gap: 16px 20px;
-  overflow: hidden;
 }
 
 .product-card-link {
   grid-column: 1/ -1;
-
 }
 
 .product-card .product-card-button {
