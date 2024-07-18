@@ -208,7 +208,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-position: absolute;
+  position: absolute;
 }
 
 .menu-button {
@@ -964,6 +964,10 @@ position: absolute;
 
 .modal-container-button:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.modal-container-button:disabled {
+  opacity: 0.1;
 }
 
 .number-of-visitors {
