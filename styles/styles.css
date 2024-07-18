@@ -1766,6 +1766,7 @@ body {
 .select-control:not(:placeholder-shown) {
   outline: none;
   border: 2px solid #3f5e72;
+  background-color: #fff;
 }
 
 .select-control:disabled {
