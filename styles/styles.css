@@ -1119,7 +1119,6 @@ body {
   border: 2px solid #000000;
 }
 
-
 .form-number[type="number"] {
   -moz-appearance: textfield;
 }
@@ -1162,8 +1161,6 @@ body {
 .modal-button svg {
   position: absolute;
 }
-
-.minus {}
 
 .modal-input-container {
   display: -webkit-box;
@@ -1365,7 +1362,6 @@ body {
   text-decoration: none;
   margin-right: 8px;
 }
-
 
 .breadcrumbs-item:not(:last-child)::after {
   content: "";
@@ -1784,7 +1780,6 @@ body {
   border-color: #68a2ca;
 }
 
-
 .select-control:disabled {
   opacity: 0.3;
 }
@@ -1983,7 +1978,7 @@ body {
   display: grid;
   -ms-grid-columns: 140px 20px 140px;
   grid-template-columns: 140px 140px;
-  grid-template-rows: auto 21px 36px 37px;
+  grid-template-rows: repeat(2, auto) repeat(2, min-content);
   gap: 16px 20px;
 }
 
