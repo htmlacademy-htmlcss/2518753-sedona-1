@@ -628,6 +628,11 @@ body {
   background-color: #1fa392;
 }
 
+.subscription-container {
+  margin-top: 96px;
+  margin-bottom: 104px;
+}
+
 .subscription h2 {
   font-weight: 700;
   font-size: 30px;
@@ -654,7 +659,6 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 10px;
 }
 
 .field {
@@ -1928,7 +1932,7 @@ body {
 }
 
 .product-card img {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   display: block;
 }
 
@@ -1984,6 +1988,7 @@ body {
 
 .product-card-link {
   grid-column: 1/ -1;
+  margin-top: -1px;
 }
 
 .product-card .product-card-button {
