@@ -1753,10 +1753,8 @@ body {
   background-image: url("../images/arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
-}
-
-.select-control {
   border: 2px solid #e5e5e5;
+  background-color: #ffffff;
 }
 
 .select-control:hover {
@@ -1766,10 +1764,6 @@ body {
 .select-control:focus {
   outline: none;
   border-color: #68a2ca;
-}
-
-.select-control:focus:not(:placeholder-shown) {
-  border: 2px solid #3f5e72;
 }
 
 .select-control:disabled {
