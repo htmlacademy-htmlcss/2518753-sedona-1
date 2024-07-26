@@ -1428,7 +1428,7 @@ body {
 }
 
 .control-input:focus + .control-mark-circle {
-  border: 3px solid #83b3d3;
+  outline: 3px solid #83b3d3;
 }
 
 .control-input:disabled + .control-mark-circle {
@@ -1478,9 +1478,9 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 18px;
-  height: 18px;
-  border: 2px solid;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
   border-radius: 50%;
   background-color: #ffffff;
   display: -webkit-box;
