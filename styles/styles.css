@@ -1437,7 +1437,7 @@ body {
 
 
 .control-input:focus + .control-mark-square {
-  border: 3px solid #83b3f3;
+  outline: 3px solid #83b3f3;
 }
 
 .control-input:disabled + .control-mark-square {
